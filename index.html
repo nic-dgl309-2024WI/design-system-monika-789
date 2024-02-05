@@ -10,70 +10,101 @@
 
   </head>
 
-  <body>
+  <body class="bg-primary">
 
-    <header>
+    <header class="l-header">
        <!-- top navbar -->
-    <div class="container top-bar">
-      <nav class="top-navbar">
-          <a href="index.html">
-            "Design System"
-           </a>
-        <ul>
-          <li><a href="about-me.html">About Me</a></li>
-          <li><a href="#">Demo Site</a></li>
+    <div class="c-top-navbar_logo-container">
+      <div class="c-top-navbar_logo">
+        <a href="index.html" class="c-top-navbar_logo text-primary">
+          <h1>"Design System"</h1>
+        </a>
+      </div>
+
+      <nav class="c-top-navbar">
+        <ul class="c-top-navbar_menu">
+          <li><a id="about-link" href="about-me.html" class="c-top-navbar_link">About Me</a></li>
+          <li><a id="demo-link" href="#" class="c-top-navbar_link">Demo Site</a></li>
         </ul>
       </nav>
     </div>
 
     <!-- Mobile Navbar -->
     <nav class="mobile-navbar">
-      <a href="index.html">Design System</a>
-      <a class="toggle" onclick="showNav()"><i class="fa-solid fa-bars fa-lg" style="color: #000000"></i></a>
+      <a href="index.html"><h1 class="logo">Design System</h1></a>
+      <a class="mobile-navbar__toggle" id="toggle-icon" onclick="showNav()">
+        <i class="fa-solid fa-bars fa-lg" ></i>
+      </a>
+      <a class="mobile-navbar__close" id="close-icon" onclick="showNav()" style="display: none">
+        <i class="fa-solid fa-times fa-lg"></i>
+      </a>
     </nav>
+  </header>
 
     <!-- Side navbar -->
-  <div class="sidebar">
-    <a href="#">Branding</a>
-  <ul>
-    <li><a href="#">01 Colours</a></li>
-    <li><a href="#">02 Typography</a></li>
-    <li><a href="#">03 Logo</a></li>
+  <nav class="c-side-navbar">
+    <ul class="c-side-navbar_list">
+      <li>
+        <a class="c-side-navbar__link" href="#">
+          <h2>Branding</h2>
+        </a>
+      </li>
+    <ul class="c-side-navbar_sub-list">
+    <li class="c-side-navbar_item"><a href="#">01 Colours</a></li>
+    <li class="c-side-navbar_item"><a href="#">02 Typography</a></li>
+    <li class="c-side-navbar_item"><a href="#">03 Logo</a></li>
   </ul>
 
-  <a href="#">Utilities</a>
-  <ul>
-    <li><a href="#">04 Spacing</a></li>
-    <li><a href="#">05 Containers</a></li>
-    <li><a href="#">06 Images</a></li>
-    <li><a href="#">07 Interactive</a></li>
-    <li><a href="#">08 Feedback</a></li>
+  <li>
+    <a class="c-side-navbar__link" href="#">
+      <h2>Utilities</h2>
+    </a>
+  </li>
+  <ul class="c-side-navbar_sub-list">
+    <li class="c-side-navbar_item"><a href="#">04 Spacing</a></li>
+    <li class="c-side-navbar_item"><a href="#">05 Containers</a></li>
+    <li class="c-side-navbar_item"><a href="#">06 Images</a></li>
+    <li class="c-side-navbar_item"><a href="#">07 Interactive</a></li>
+    <li class="c-side-navbar_item"><a href="#">08 Feedback</a></li>
   </ul>
  
-  <a href="#">Navigation</a>
+  <li>
+    <a class="c-side-navbar__link" href="#">
+      <h2>Navigation</h2>
+    </a>
+  </li>
   <ul>
-    <li><a href="#">09 Navbars</a></li>
-    <li><a href="#">10 Breadcrumbs</a></li>
-    <li><a href="#">11 Pagination</a></li>
+    <li class="c-side-navbar_item"><a href="#">09 Navbars</a></li>
+    <li class="c-side-navbar_item"><a href="#">10 Breadcrumbs</a></li>
+    <li class="c-side-navbar_item"><a href="#">11 Pagination</a></li>
   </ul>
 
-<a href="#">Blocks</a>
+  <li>
+    <a class="c-side-navbar__link" href="#">
+      <h2>Blocks</h2>
+    </a>
+  </li>
   <ul>
-    <li><a href="#">12 Hero</a></li>
-    <li><a href="#">13 Carousel</a></li>
-    <li><a href="#">14 Slats</a></li>
-    <li><a href="#">15 Footers</a></li>
+    <li class="c-side-navbar_item"><a href="#">12 Hero</a></li>
+    <li class="c-side-navbar_item"><a href="#">13 Carousel</a></li>
+    <li class="c-side-navbar_item"><a href="#">14 Slats</a></li>
+    <li class="c-side-navbar_item"><a href="#">15 Footers</a></li>
   </ul>
 
-<a href="#">Components</a>
+  <li>
+    <a class="c-side-navbar__link" href="#">
+      <h2>Components</h2>
+    </a>
+  </li>
   <ul>
-    <li><a href="#">16 Cards</a></li>
-    <li><a href="#">17 Forms</a></li>
-    <li><a href="#">18 Accordion</a></li>
-    <li><a href="#">19 Lists </a></li>
+    <li class="c-side-navbar_item"><a href="#">16 Cards</a></li>
+    <li class="c-side-navbar_item"><a href="#">17 Forms</a></li>
+    <li class="c-side-navbar_item"><a href="#">18 Accordion</a></li>
+    <li class="c-side-navbar_item"><a href="#">19 Lists </a></li>
   </ul>
-</div>
-</header>
+</ul>
+</nav>
+
 
 <script src="design-system.js"></script>
   </body>
