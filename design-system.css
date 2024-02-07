@@ -2,76 +2,102 @@ body{
     color: var(--clr-primary);
 }
 
-/* top navbar */
+/* ==>  Nav Style <== */
 
-.c-top-navbar{
-    overflow:hidden;
-    position: relative;
-    padding: 12px 14px;
-    display: none;
+
+nav ul {
+  list-style-type: none;
+  flex-direction: column;
 }
 
-.c-top-navbar_logo{
-    font-weight: bold;
-    font-size: 18px;
-    text-decoration: none;
+.nav-links
+{
+  display: none;
 }
 
-
-/* mobile navbar */
-
-.mobile-navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.logo {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 20px;
 }
 
-
-
-
-/* side navbar */
-
-.c-side-navbar_list,
-.c-side-navbar_sub-list{
-    list-style-type:none;
+#navbar-toggle {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
 }
 
-.c-top-navbar_link,
-.c-side-navbar_link{
-    text-decoration: none;
-    color:var(--clr-primary);
+.mobile-nav li a,
+.side-navbar li a {
+  text-decoration: none;
+  color: var(--clr-primary-200);
 }
 
-.c-top-navbar__link:hover,
-.c-side-navbar__link:hover {
-  color: var(--clr-secondary);
+nav a:hover  /* changing the color of Menu list elements */
+{
+  color: var(--clr-accent-two-200);
 }
 
+#main-nav
+{
+  display: none;
+}
 
-
-/* styling active state */
-
-.c-top-navbar_link:active{
-    color:var(--clr-secondary);
-    font-weight: bold;
+.nav-text{
+  font-weight: bold;
+  
 }
 
 
-/* media query for desktop view  */
+@media screen and (min-width: 1200px) {
 
-.c-top-navbar__logo-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-} 
+/* ==>  Nav Style desktop <== */
 
-.mobile-navbar_toggal{
-    display: none !important;
+.mobile-nav  {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0;
+  height: 70px;
+  align-items: center;
 }
 
-.c-top-navbar,
-.c-top-navbar_menu{
-    display: flex;
-    gap: 18px;
-    align-items: center;
+.mobile-nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+#main-nav
+{
+  display: flex;
+}
+
+.nav-links
+{
+  display: flex;
+}
+
+.logo {
+  margin-top: 0;
+}
+
+#navbar-toggle {
+  display: none;
+}
+
+.mobile-nav li a,
+.side-navbar li a {
+  text-decoration: none;
+  color: var(--clr-primary-200);
+}
+
+nav a:hover  /* changing the color of Menu list elements */
+{
+  color: var(--clr-accent-two-200);
+}
+
+.nav-text{
+  font-weight: bold;
+}
 }
