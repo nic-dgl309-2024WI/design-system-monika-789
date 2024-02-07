@@ -1,243 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Design System</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-    <link rel="stylesheet" type="text/css" href="design-system.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-  </head>
 
-  <body class="bg-primary">
-    <header>
-      <!-- Menu Bar -->
-      <nav class="mobile-nav">
-        <!-- Menu Button -->
-        <span id="navbar-toggle" onclick="showNav()">
-          <i class="fa fa-bars color-theme-highlighted"></i></span>
-        <!-- Website Logo -->
-        Digital design
-        <!-- Menu List -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Design System</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <link rel="stylesheet" type="text/css" href="design-system.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body class="bg-primary">
+  <header>
+    <!-- Menu Bar -->
+    <nav class="mobile-nav">
+      <!-- Menu Button -->
+      <span id="navbar-toggle" onclick="showNav()">
+        <i class="fa fa-bars color-theme-highlighted"></i></span>
+      <!-- Website Logo -->
+      
+      Digital design
+      <!-- Menu List -->
+      <ul>
+        <li>
+          <a class="nav-links" href="about-me.html">About me</a>
+        </li>
+        <li>
+          <a class="nav-links" href="#">Demo site</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Side navbar -->
+  <aside>
+    <nav id="main-nav" class="side-navbar">
+      <ul>
+        <li>
+          <a href="#" class="nav-text">
+            Branding
+          </a>
+        </li>
         <ul>
-          <li>
-            <a class="nav-links"  href="#">About me</a>
-          </li>
-          <li>
-            <a class="nav-links" href="#">Demo site</a>
-          </li>
+          <li><a href="colours.html">01 Colours</a></li>
+          <li><a href="#">02 Typography</a></li>
+          <li><a href="#">03 Logo</a></li>
         </ul>
-      </nav>
-    </header>
 
-    <!-- Side navbar -->
-    <aside>
-  <nav id="main-nav" class="side-navbar">
-    <ul>
-      <li>
-        <a href="#" class="nav-text">
-          Branding
-        </a>
-      </li>
-    <ul>
-    <li><a href="colours.html">01 Colours</a></li>
-    <li><a href="#">02 Typography</a></li>
-    <li><a href="#">03 Logo</a></li>
-  </ul>
+        <li>
+          <a href="#" class="nav-text">
+            Utilities
+          </a>
+        </li>
+        <ul>
+          <li><a href="#">04 Spacing</a></li>
+          <li><a href="#">05 Containers</a></li>
+          <li><a href="#">06 Images</a></li>
+          <li><a href="#">07 Interactive</a></li>
+          <li><a href="#">08 Feedback</a></li>
+        </ul>
 
-  <li>
-    <a href="#" class="nav-text">
-      Utilities
-    </a>
-  </li>
-  <ul>
-    <li><a href="#">04 Spacing</a></li>
-    <li><a href="#">05 Containers</a></li>
-    <li><a href="#">06 Images</a></li>
-    <li><a href="#">07 Interactive</a></li>
-    <li><a href="#">08 Feedback</a></li>
-  </ul>
- 
-  <li>
-    <a  href="#" class="nav-text">
-      Navigation
-    </a>
-  </li>
-  <ul>
-    <li><a href="#">09 Navbars</a></li>
-    <li><a href="#">10 Breadcrumbs</a></li>
-    <li><a href="#">11 Pagination</a></li>
-  </ul>
+        <li>
+          <a href="#" class="nav-text">
+            Navigation
+          </a>
+        </li>
+        <ul>
+          <li><a href="#">09 Navbars</a></li>
+          <li><a href="#">10 Breadcrumbs</a></li>
+          <li><a href="#">11 Pagination</a></li>
+        </ul>
 
-  <li>
-    <a href="#" class="nav-text">
-      Blocks
-    </a>
-  </li>
-  <ul>
-    <li><a href="#">12 Hero</a></li>
-    <li><a href="#">13 Carousel</a></li>
-    <li><a href="#">14 Slats</a></li>
-    <li><a href="#">15 Footers</a></li>
-  </ul>
+        <li>
+          <a href="#" class="nav-text">
+            Blocks
+          </a>
+        </li>
+        <ul>
+          <li><a href="#">12 Hero</a></li>
+          <li><a href="#">13 Carousel</a></li>
+          <li><a href="#">14 Slats</a></li>
+          <li><a href="#">15 Footers</a></li>
+        </ul>
 
-  <li>
-    <a href="#" class="nav-text">
-      Components
-    </a>
-  </li>
-  <ul>
-    <li><a href="#">16 Cards</a></li>
-    <li><a href="#">17 Forms</a></li>
-    <li><a href="#">18 Accordion</a></li>
-    <li><a href="#">19 Lists </a></li>
-  </ul>
-</ul>
-</nav>
-</aside>
+        <li>
+          <a href="#" class="nav-text">
+            Components
+          </a>
+        </li>
+        <ul>
+          <li><a href="#">16 Cards</a></li>
+          <li><a href="#">17 Forms</a></li>
+          <li><a href="#">18 Accordion</a></li>
+          <li><a href="#">19 Lists </a></li>
+        </ul>
+      </ul>
+    </nav>
+  </aside>
 
 
 
-<main>
+  <main>
     <!-- swatch colors -->
     <section>
-    <h2>Primary-Secondary Colors</h2>
-            <div class="swatch-primary">
-                <div class="name">.text-primary</div>
-                <div class="hex">#171C5E</div>
-                <div class="uses">
-                    <ul>
-                        <li>Headings</li>
-                        <li>Body text</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="swatch-secondary">
-                <div class="name">.text-secondary</div>
-                <div class="hex">#050156</div>
-                <div class="uses">
-                    <ul>
-                        
-                        <li>Text in another sections</li>
-                    </ul>
-                </div>
-            </div>
-        
-            <div class="swatch bg-primary">
-                <div class="name">.bg-primary</div>
-                <div class="hex">#feede1</div>
-                <div class="uses">
-                    <ul>
-                        <li>Backgrounds</li>
-                    </ul>
-                </div>
-            </div>
-        
-            <div class="swatch bg-dark-primary">
-                <div class="name">.bg-dark-primary</div>
-                <div class="hex">#89dcdc</div>
-                <div class="uses">
-                    <ul>
-                        <li>Navbar background</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        
-        <section>
-            <h2>Accent Colors</h2>
-            <div class="swatch text-accent">
-                <div class="name">.text-accent</div>
-                <div class="hex">#55855c</div>
-                <div class="uses">
-                    <ul>
-                        <li>Buttons</li>
-                        <li>Links</li>
-                    </ul>
-                </div>
-            </div>
-        
-            <div class="swatch bg-accent">
-                <div class="name">.bg-accent</div>
-                <div class="hex">#6D7C77</div>
-                <div class="uses">
-                    <ul>
-                        <li>Different purposes</li>
-                    </ul>
-                </div>
-            </div>
-        
-            <div class="swatch text-accent-light">
-                <div class="name">.text-accent-light</div>
-                <div class="hex">#fec6a3</div>
-                <div class="uses">
-                    <ul>
-                        <li>Highlights</li>
-                    </ul>
-                </div>
-            </div>
-        
-            <div class="swatch text-accent-dark">
-                <div class="name">.text-accent-dark</div>
-                <div class="hex">#ea7749</div>
-                <div class="uses">
-                    <ul>
-                        <li>Dark accent text</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+      <h2>Primary-Secondary Colors</h2>
+      <div class="swatch-primary">
+        <div class="name">.text-primary</div>
+        <div class="hex">#171C5E</div>
+        <div class="uses">
+          <ul>
+            <li>Headings</li>
+            <li>Body text</li>
+          </ul>
+        </div>
+      </div>
+      <div class="swatch-secondary">
+        <div class="name">.text-secondary</div>
+        <div class="hex">#050156</div>
+        <div class="uses">
+          <ul>
 
-        <section>
-            <h2>Color combinations</h2>
-            <table>
-                <tr>
-                    <th>Text</th>
-                    <th>Background</th>
-                    <th>Contrast Ratio</th>
-                </tr>
-                <tr>
-                    <td>#171c5e</td>
-                    <td>#feede1</td>
-                    <td>13.49:1</td>
-                    <td>pass</td>
-                </tr>
-                <tr>
-                    <td>#09106c</td>
-                    <td>#89dcdc</td>
-                    <td>10.23:1</td>
-                    <td>pass</td>
-                </tr>
-                <tr>
-                    <td>#050156</td>
-                    <td>#ff8ffc</td>
-                    <td>7.55:1</td>
-                    <td>pass</td>
-                </tr>
-                <tr>
-                    <td>#0f0156</td>
-                    <td>#def1f7</td>
-                    <td>15.55:1</td>
-                    <td>pass</td>
-                </tr>
-                <tr>
-                    <td>#4b4c86</td>
-                    <td>#feaa76</td>
-                    <td>4.19:1</td>
-                    <td>fail</td>
-                </tr>
-                <tr>
-                    <td>#333333</td>
-                    <td>#fae5ed</td>
-                    <td>10.52:1</td>
-                    <td>pass</td>
-                </tr>
-            </table>
-        </section>
-</main>
+            <li>Text in another sections</li>
+          </ul>
+        </div>
+      </div>
 
-<script src="design-system.js"></script>
-  </body>
-  
+      <div class="swatch bg-primary">
+        <div class="name">.bg-primary</div>
+        <div class="hex">#feede1</div>
+        <div class="uses">
+          <ul>
+            <li>Backgrounds</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="swatch bg-dark-primary">
+        <div class="name">.bg-dark-primary</div>
+        <div class="hex">#89dcdc</div>
+        <div class="uses">
+          <ul>
+            <li>Navbar background</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Accent Colors</h2>
+      <div class="swatch text-accent">
+        <div class="name">.text-accent</div>
+        <div class="hex">#55855c</div>
+        <div class="uses">
+          <ul>
+            <li>Buttons</li>
+            <li>Links</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="swatch bg-accent">
+        <div class="name">.bg-accent</div>
+        <div class="hex">#6D7C77</div>
+        <div class="uses">
+          <ul>
+            <li>Different purposes</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="swatch text-accent-light">
+        <div class="name">.text-accent-light</div>
+        <div class="hex">#fec6a3</div>
+        <div class="uses">
+          <ul>
+            <li>Highlights</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="swatch text-accent-dark">
+        <div class="name">.text-accent-dark</div>
+        <div class="hex">#ea7749</div>
+        <div class="uses">
+          <ul>
+            <li>Dark accent text</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Color combinations</h2>
+      <table>
+        <tr>
+          <th>Text</th>
+          <th>Background</th>
+          <th>Contrast Ratio</th>
+        </tr>
+        <tr>
+          <td>#171c5e</td>
+          <td>#feede1</td>
+          <td>13.49:1</td>
+          <td>pass</td>
+        </tr>
+        <tr>
+          <td>#09106c</td>
+          <td>#89dcdc</td>
+          <td>10.23:1</td>
+          <td>pass</td>
+        </tr>
+        <tr>
+          <td>#050156</td>
+          <td>#ff8ffc</td>
+          <td>7.55:1</td>
+          <td>pass</td>
+        </tr>
+        <tr>
+          <td>#0f0156</td>
+          <td>#def1f7</td>
+          <td>15.55:1</td>
+          <td>pass</td>
+        </tr>
+        <tr>
+          <td>#4b4c86</td>
+          <td>#feaa76</td>
+          <td>4.19:1</td>
+          <td>fail</td>
+        </tr>
+        <tr>
+          <td>#333333</td>
+          <td>#fae5ed</td>
+          <td>10.52:1</td>
+          <td>pass</td>
+        </tr>
+      </table>
+    </section>
+  </main>
+
+  <script src="design-system.js"></script>
+</body>
+
 </html>

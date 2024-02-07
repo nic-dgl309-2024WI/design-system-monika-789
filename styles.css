@@ -1,53 +1,53 @@
 /* Grayscale colors */
 :root {
-    /* Primary text colors */
-    --clr-primary-100: #333333;
-    --clr-primary-200: #282626;
-    --clr-primary-300: #191919;
-    --clr-primary-400: #171c5e;
-    
+  /* Primary text colors */
+  --clr-primary-100: #333333;
+  --clr-primary-200: #282626;
+  --clr-primary-300: #191919;
+  --clr-primary-400: #171c5e;
+
   /* Secondary background colors*/
-    --clr-secondary-100:#feede1;
-    --clr-secondary-200: #89dcdc;
-    --clr-secondary-300: #fec5fc;
-    --clr-secondary-400: #def1f7;
-  
-    /* Accent colors  */
-    --clr-accent-one-100: #ea7749;
-    --clr-accent-one-200: #ce628b;
-    --clr-accent-two-100: #fec6a3;
-    --clr-accent-two-200: #9cadab;
-    --clr-accent-three-100: #982a52;
-    --clr-accent-three-200: #487d96;
-  
-    /* Addtional color */
-    --clr-dark: #000000;
-    --clr-mid-black: #a59898;
-    --clr-white: #ffffff;
-  }
-  
-  
-  /* Border Box Fix */
-  * {
-    box-sizing: border-box;
-  }
-  
-  /* Reset margin */
-  body,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  figure,
-  picture {
-    margin: 0;
-  }
-  
-  /* Remove padding from lists */
-  ul,
-  ol {
-    padding: 0;
-  }
+  --clr-secondary-100: #feede1;
+  --clr-secondary-200: #89dcdc;
+  --clr-secondary-300: #fec5fc;
+  --clr-secondary-400: #def1f7;
+
+  /* Accent colors  */
+  --clr-accent-one-100: #ea7749;
+  --clr-accent-one-200: #ce628b;
+  --clr-accent-two-100: #fec6a3;
+  --clr-accent-two-200: #9cadab;
+  --clr-accent-three-100: #982a52;
+  --clr-accent-three-200: #487d96;
+
+  /* Addtional color */
+  --clr-dark: #000000;
+  --clr-mid-black: #a59898;
+  --clr-white: #ffffff;
+}
+
+
+/* Border Box Fix */
+* {
+  box-sizing: border-box;
+}
+
+/* Reset margin */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+picture {
+  margin: 0;
+}
+
+/* Remove padding from lists */
+ul,
+ol {
+  padding: 0;
+}
