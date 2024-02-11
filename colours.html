@@ -14,20 +14,19 @@
 <body class="bg-primary">
   <header>
     <!-- Menu Bar -->
-    <nav class="mobile-nav">
+    <nav class="mobile-nav--top">
       <!-- Menu Button -->
       <span id="navbar-toggle" onclick="showNav()">
         <i class="fa fa-bars color-theme-highlighted"></i></span>
       <!-- Website Logo -->
-      
-      Digital design
+      <a class="nav__link" href="index.html">Digital design</a>
       <!-- Menu List -->
-      <ul>
+      <ul nav_list>
         <li>
-          <a class="nav-links" href="about-me.html">About me</a>
+          <a class="nav-link"  href="#">About me</a>
         </li>
         <li>
-          <a class="nav-links" href="#">Demo site</a>
+          <a class="nav-link" href="#">Demo site</a>
         </li>
       </ul>
     </nav>
@@ -35,202 +34,257 @@
 
   <!-- Side navbar -->
   <aside>
-    <nav id="main-nav" class="side-navbar">
-      <ul>
-        <li>
-          <a href="#" class="nav-text">
-            Branding
-          </a>
-        </li>
-        <ul>
-          <li><a href="colours.html">01 Colours</a></li>
-          <li><a href="#">02 Typography</a></li>
-          <li><a href="#">03 Logo</a></li>
-        </ul>
+<nav id="main-nav" class="nav-side--navbar">
+  <ul class="nav__list">
+    <li>
+      <a href="#" class="nav__link">
+        Branding
+      </a>
+    </li>
+  <ul class="nav__list">
+  <li class="list__item--active"><a href="colours.html" class="nav__link">01 Colours</a></li>
+  <li><a href="#" class="nav__link">02 Typography</a></li>
+  <li><a href="#" class="nav__link">03 Logo</a></li>
+</ul>
 
-        <li>
-          <a href="#" class="nav-text">
-            Utilities
-          </a>
-        </li>
-        <ul>
-          <li><a href="#">04 Spacing</a></li>
-          <li><a href="#">05 Containers</a></li>
-          <li><a href="#">06 Images</a></li>
-          <li><a href="#">07 Interactive</a></li>
-          <li><a href="#">08 Feedback</a></li>
-        </ul>
+<li>
+  <a href="#" class="nav__link">
+    Utilities
+  </a>
+</li>
+<ul class="nav__list">
+  <li><a href="#" class="nav__link">04 Spacing</a></li>
+  <li><a href="#" class="nav__link">05 Containers</a></li>
+  <li><a href="#" class="nav__link">06 Images</a></li>
+  <li><a href="#" class="nav__link">07 Interactive</a></li>
+  <li><a href="#" class="nav__link">08 Feedback</a></li>
+</ul>
 
-        <li>
-          <a href="#" class="nav-text">
-            Navigation
-          </a>
-        </li>
-        <ul>
-          <li><a href="#">09 Navbars</a></li>
-          <li><a href="#">10 Breadcrumbs</a></li>
-          <li><a href="#">11 Pagination</a></li>
-        </ul>
+<li>
+  <a  href="#" class="nav__link">
+    Navigation
+  </a>
+</li>
+<ul class="nav__list">
+  <li><a href="#" class="nav__link">09 Navbars</a></li>
+  <li><a href="#" class="nav__link">10 Breadcrumbs</a></li>
+  <li><a href="#" class="nav__link">11 Pagination</a></li>
+</ul>
 
-        <li>
-          <a href="#" class="nav-text">
-            Blocks
-          </a>
-        </li>
-        <ul>
-          <li><a href="#">12 Hero</a></li>
-          <li><a href="#">13 Carousel</a></li>
-          <li><a href="#">14 Slats</a></li>
-          <li><a href="#">15 Footers</a></li>
-        </ul>
+<li>
+  <a href="#" class="nav__link">
+    Blocks
+  </a>
+</li>
+<ul class="nav__list">
+  <li><a href="#" class="nav__link">12 Hero</a></li>
+  <li><a href="#" class="nav__link">13 Carousel</a></li>
+  <li><a href="#" class="nav__link">14 Slats</a></li>
+  <li><a href="#" class="nav__link">15 Footers</a></li>
+</ul>
 
-        <li>
-          <a href="#" class="nav-text">
-            Components
-          </a>
-        </li>
-        <ul>
-          <li><a href="#">16 Cards</a></li>
-          <li><a href="#">17 Forms</a></li>
-          <li><a href="#">18 Accordion</a></li>
-          <li><a href="#">19 Lists </a></li>
-        </ul>
-      </ul>
-    </nav>
-  </aside>
+<li>
+  <a href="#" class="nav__link">
+    Components
+  </a>
+</li>
+<ul class="nav__list">
+  <li><a href="#" class="nav__link">16 Cards</a></li>
+  <li><a href="#" class="nav__link">17 Forms</a></li>
+  <li><a href="#" class="nav__link">18 Accordion</a></li>
+  <li><a href="#" class="nav__link">19 Lists </a></li>
+</ul>
+</ul>
+</nav>
+</aside>
 
 
+<!-- Main section -->
 
   <main>
-    <!-- swatch colors -->
-    <section>
+    <!-- swatch colors for primary headings, background and body text -->
+    <section class="swatch-colors">
       <h2>Primary-Secondary Colors</h2>
-      <div class="swatch-primary">
-        <div class="name">.text-primary</div>
-        <div class="hex">#171C5E</div>
-        <div class="uses">
+      <div class="swatch-primary_colors">
+        <p>Class color-name: text-primary-color</p>
+        <p>Hex: #171C5E</p>
+
+        <nav class="uses">
+          <ul>
+            <li>Uses-</li>
+          
           <ul>
             <li>Headings</li>
             <li>Body text</li>
           </ul>
-        </div>
+        </ul>
+        </nav>
       </div>
-      <div class="swatch-secondary">
-        <div class="name">.text-secondary</div>
-        <div class="hex">#050156</div>
-        <div class="uses">
+      <div class="swatch-secondary_colors">
+        <p>Class color-name: text-secondary-color</p>
+        <p>Hex: #050156</p>
+
+        <nav class="uses">
           <ul>
+            <li>Uses-</li>
+          
+            <ul>
 
             <li>Text in another sections</li>
           </ul>
-        </div>
+          </ul>
+        </nav>
       </div>
 
-      <div class="swatch bg-primary">
-        <div class="name">.bg-primary</div>
-        <div class="hex">#feede1</div>
-        <div class="uses">
+      <div class="swatch bg-primary_colors">
+        <p>Class color-name: bg-primary-color</p> 
+        <p>Hex: #feede1</p>
+
+        <nav class="uses">
+          <ul>
+            <li>Uses-</li>
+         
           <ul>
             <li>Backgrounds</li>
           </ul>
-        </div>
+        </ul>
+        </nav>
       </div>
 
-      <div class="swatch bg-dark-primary">
-        <div class="name">.bg-dark-primary</div>
-        <div class="hex">#89dcdc</div>
-        <div class="uses">
+      <div class="swatch bg-dark-primary_colors">
+        <p>Class color-name: bg-dark-primary-color</p> 
+        <p>Hex: #89dcdc</p>
+
+        <nav class="uses">
+          <ul>
+            <li>Uses-</li>
+         
           <ul>
             <li>Navbar background</li>
           </ul>
-        </div>
+        </ul>
+        </nav>
       </div>
+
     </section>
 
-    <section>
+     <!-- swatch colors for accent colors for extra highlighting text or buttons and links-->
+    <section class="swatch-colors">
       <h2>Accent Colors</h2>
-      <div class="swatch text-accent">
-        <div class="name">.text-accent</div>
-        <div class="hex">#55855c</div>
-        <div class="uses">
+      <div class="swatch text-accent_colors">
+        <p>Class color-name: text-accent-color</p> 
+        <p>Hex: #55855cc</p>
+
+        <nav class="uses">
+          <ul>
+            <li>Uses-</li>
+         
           <ul>
             <li>Buttons</li>
             <li>Links</li>
           </ul>
-        </div>
+        </ul>
+        </nav>
       </div>
 
-      <div class="swatch bg-accent">
-        <div class="name">.bg-accent</div>
-        <div class="hex">#6D7C77</div>
-        <div class="uses">
+
+      <div class="swatch bg-accent_colors">
+        <p>Class color-name: bg-accent-color</p> 
+        <p>Hex: #6D7C77</p>
+
+        <nav class="uses">
+          <ul>
+            <li>Uses-</li>
+         
           <ul>
             <li>Different purposes</li>
           </ul>
-        </div>
+        </ul>
+        </nav>
       </div>
 
-      <div class="swatch text-accent-light">
-        <div class="name">.text-accent-light</div>
-        <div class="hex">#fec6a3</div>
-        <div class="uses">
+      <div class="swatch text-accent-light_colors">
+        <p>Class color-name: text-accent-light-color</p> 
+        <p>Hex: #fec6a3</p>
+
+        <nav class="uses">
+          <ul>
+            <li>Uses-</li>
+         
           <ul>
             <li>Highlights</li>
           </ul>
-        </div>
+        </ul>
+        </nav>
       </div>
 
-      <div class="swatch text-accent-dark">
-        <div class="name">.text-accent-dark</div>
-        <div class="hex">#ea7749</div>
-        <div class="uses">
+      <div class="swatch text-accent-dark_colors">
+        <p>Class color-name: text-accent-dark-color</p> 
+        <p>Hex: #ea7749</p>
+
+        <nav class="uses">
+          <ul>
+            <li>Uses-</li>
+         
           <ul>
             <li>Dark accent text</li>
           </ul>
-        </div>
+        </ul>
+        </nav>
       </div>
     </section>
 
+
+    <!-- Color combinations with contrast ratio -->
+    
     <section>
       <h2>Color combinations</h2>
       <table>
         <tr>
-          <th>Text</th>
-          <th>Background</th>
-          <th>Contrast Ratio</th>
+          <th>Text-</th>
+          <th></th>
+          <th>Background- </th>
+          <th>Actual Ratio- </th>
+          <th>Contrast Ratio-</th>
         </tr>
         <tr>
           <td>#171c5e</td>
+          <td> </td>
           <td>#feede1</td>
           <td>13.49:1</td>
           <td>pass</td>
         </tr>
         <tr>
           <td>#09106c</td>
+          <td></td>
           <td>#89dcdc</td>
           <td>10.23:1</td>
           <td>pass</td>
         </tr>
         <tr>
           <td>#050156</td>
+          <td></td>
           <td>#ff8ffc</td>
           <td>7.55:1</td>
           <td>pass</td>
         </tr>
         <tr>
           <td>#0f0156</td>
+          <td></td>
           <td>#def1f7</td>
           <td>15.55:1</td>
           <td>pass</td>
         </tr>
         <tr>
           <td>#4b4c86</td>
+          <td></td>
           <td>#feaa76</td>
           <td>4.19:1</td>
           <td>fail</td>
         </tr>
         <tr>
           <td>#333333</td>
+          <td></td>
           <td>#fae5ed</td>
           <td>10.52:1</td>
           <td>pass</td>
