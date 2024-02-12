@@ -10,12 +10,13 @@
 
   /* Accent colors  */
  
-  --clr-accent-three-100: #215770;   /* for primary option */
-  --clr-accent-one-200: #f97e4d;     /* for secondary option */
+  --clr-accent-three-100: #215770;   /* for primary button option */
+  --clr-accent-one-200: #f97e4d;     /* for secondary button option */
   --clr-accent-one-300: #ce628b;     /* for extra option */
   --clr-accent-two-400: #fe6506;     /* for links option */
   --clr-accent-two-500: #9cadab;     /* for any page option */
   --clr-accent-three-600: #0879b5;   /* for highlighting option */
+  --clr-accent-three-700: #a6b6be;   /* for hover text option */
   
 
   /* Addtional color */
