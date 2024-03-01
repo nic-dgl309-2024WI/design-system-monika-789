@@ -7,14 +7,13 @@ nav ul {
   flex-direction: column;
 }
 
-.c-nav-link {
+/* .c-nav__link {
   display: none;
-}
+} */
 
-.logo {
+.c-nav-logo__link {
   display: inline-block;
   margin-top: 10px;
-  margin-left: 20px;
 }
 
 #navbar-toggle {
@@ -24,9 +23,9 @@ nav ul {
   cursor: pointer;
 }
 
-.c-mobile-nav--top li a,
-.c-nav-side--navbar li a,
-.c-mobile-nav--top a {
+.c-mobile-nav-top li a,
+.c-nav-side-navbar li a,
+.c-mobile-nav-top a {
   text-decoration: none;
   color: var(--clr-primary-text-100);
   font-weight: bold;
@@ -49,7 +48,7 @@ nav a:hover
 
   /* ==>  Nav Style desktop <== */
 
-  .c-mobile-nav--top {
+  .c-mobile-nav-top {
     display: flex;
     justify-content: space-between;
     padding-bottom: 0;
@@ -57,7 +56,7 @@ nav a:hover
     align-items: center;
   }
 
-  .c-mobile-nav--top ul {
+  .c-mobile-nav-top ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -67,21 +66,21 @@ nav a:hover
     display: flex;
   }
 
-  .c-nav-link {
+  .c-nav__link {
     display: flex;
   }
 
-  .logo {
+  /* .c-nav-logo__link{
     margin-top: 0;
-  }
+  } */
 
   #navbar-toggle {
     display: none;
   }
 
-  .c-mobile-nav--top li a,
-  .c-nav-side--navbar li a,
-  .c-mobile-nav--top a  {
+  .c-mobile-nav-top li a,
+  .c-nav-side-navbar li a,
+  .c-mobile-nav-top a  {
     text-decoration: none;
     color: var(--clr-primary-text-100);
     font-weight: bold;
@@ -93,6 +92,14 @@ nav a:hover
     {
     color: var(--clr-accent-three-700);
   }
+
+  
+/* layout for color page  */
+
+.c-class-name{
+  border: 2px solid #0000;
+  width:120px;
+}
 
 
 }
