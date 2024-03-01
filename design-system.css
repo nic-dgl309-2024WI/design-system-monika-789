@@ -7,7 +7,7 @@ nav ul {
   flex-direction: column;
 }
 
-.nav-link {
+.c-nav-link {
   display: none;
 }
 
@@ -24,9 +24,9 @@ nav ul {
   cursor: pointer;
 }
 
-.mobile-nav--top li a,
-.nav-side--navbar li a,
-.mobile-nav--top a {
+.c-mobile-nav--top li a,
+.c-nav-side--navbar li a,
+.c-mobile-nav--top a {
   text-decoration: none;
   color: var(--clr-primary-text-100);
   font-weight: bold;
@@ -49,7 +49,7 @@ nav a:hover
 
   /* ==>  Nav Style desktop <== */
 
-  .mobile-nav--top {
+  .c-mobile-nav--top {
     display: flex;
     justify-content: space-between;
     padding-bottom: 0;
@@ -57,7 +57,7 @@ nav a:hover
     align-items: center;
   }
 
-  .mobile-nav--top ul {
+  .c-mobile-nav--top ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -67,7 +67,7 @@ nav a:hover
     display: flex;
   }
 
-  .nav-link {
+  .c-nav-link {
     display: flex;
   }
 
@@ -79,9 +79,9 @@ nav a:hover
     display: none;
   }
 
-  .mobile-nav--top li a,
-  .nav-side--navbar li a,
-  .mobile-nav--top a  {
+  .c-mobile-nav--top li a,
+  .c-nav-side--navbar li a,
+  .c-mobile-nav--top a  {
     text-decoration: none;
     color: var(--clr-primary-text-100);
     font-weight: bold;
