@@ -1,29 +1,25 @@
 /* Variables for colors */
 :root {
   /* Primary colors */
-  --clr-primary-text-100: #333333; 
-  --clr-primary-bg-400: #cdedf7;
+  --clr-primary-text: #1c1b1b; 
+  --clr-primary-bg: #fde7d0;
+  --clr-primary-headings: #ad5c1c;
 
   /* Secondary colors*/
-  --clr-secondary-bg-100: #feede1;
-  --clr-primary-text-200: #232222;
+  --clr-secondary-bg: #f0e9e5;
+  --clr-secondary-text: #6a6a6a;
+  --clr-secondary-headings: #142115;
 
   /* Accent colors  */
  
-  --clr-accent-three-100: #215770;   /* for primary button option */
-  --clr-accent-one-200: #f97e4d;     /* for secondary button option */
-  --clr-accent-one-300: #ce628b;     /* for extra option */
-  --clr-accent-two-400: #fe6506;     /* for links option */
-  --clr-accent-two-500: #9cadab;     /* for any page option */
-  --clr-accent-three-600: #0879b5;   /* for highlighting option */
-  --clr-accent-three-700: #a6b6be;   /* for hover text option */
+  --clr-accent-three-100: #ad5c1c;   /* for primary button option */
+  --clr-accent-one-200: #ffff00;   /* for links option */
+
   
-
   /* Addtional color */
-  --clr-dark: #000000;
-  --clr-mid-black: #5f4c4c;
-  --clr-white: #ffffff;
-
+  --clr-additional-body-text: #050505;
+  --clr-additional-heading: #515050;
+  --clr-additional-bg: #f9f6f2;
 
 
   /* Font-families */
@@ -31,27 +27,60 @@
   --heading-font: 'Crimson Pro', serif;
   --body-font: 'Open Sans', sans-serif;
 
+
+  /* Font size */
+
   --heading-large-size: 2rem;
   --heading-medium-size: 1.5rem;     /* for headings  */
   --heading-small-size: 1.25rem;
-  --heading-font-weight: bold;
-  --heading-font-weight: normal;
-  --heading-line-height: 1.2;
 
-  --body-font-large-size: 2rem;
+  --body-font-large-size: 2rem;      /* for body text  */
   --body-font-medium-size: 1rem;
+
+
+   /* Font weight */
+ 
+  --heading-font-weight: bold;
+  --heading-font-weight: normal;      /* for headings  */
+ 
+
   --body-font-weight: normal;        /* for body text  */
-  --body-line-height: 1.5;
-  --body-letter-spacing-normal: 0.5px;
+
+  
+
+
+  
+  /* Line height */
+  
+  --heading-line-height: 1.2rem;
+  --heading-line-height: 1.5rem;
+
+  --body-line-height: 1.2rem;
+  --body-line-height: 1.5rem;
+
+
+   /* Letter spacing */
+
+   --heading-letter-spacing: 2px;
+   --heading-letter-spacing: 3px;
+
+   --body-letter-spacing-normal: 0.5px;
+   --body-letter-spacing-normal: 1px;
+
 }
 
 
+/* CSS Reset */
 
-
-/* Border Box Fix */
-* {
-  box-sizing: border-box;
+html {
+  box-sizing: border-box;  /* Border Box Fix */
 }
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5rem;
+}
+
 
 /* Reset margin */
 body,

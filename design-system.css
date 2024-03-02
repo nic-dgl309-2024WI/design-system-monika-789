@@ -31,15 +31,23 @@ nav ul {
   font-weight: bold;
 }
 
-nav a:hover
-
 /* changing the color of Menu list elements */
+
+nav a:hover
   {
   color: var(--clr-accent-three-700);
 }
 
 #main-nav {
   display: none;
+}
+
+
+/* style the swatches colors */
+
+.c-primary-heading-colors{
+      display: flex;
+      flex-wrap: wrap;      
 }
 
 
