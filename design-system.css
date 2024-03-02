@@ -45,11 +45,23 @@ nav a:hover
 
 /* style the swatches colors */
 
-.c-primary-heading-colors{
+.c-container-colors{
       display: flex;
       flex-wrap: wrap;      
 }
 
+.c-container-style-color{
+  width:300px;
+  height: 100px;
+  border: 1px solid #766262;
+  margin: 2px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
 
 
 @media screen and (min-width: 1200px) {
