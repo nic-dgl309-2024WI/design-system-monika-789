@@ -1,214 +1,266 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Design System</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-    <link rel="stylesheet" type="text/css" href="design-system.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-  </head>
 
-  <body class="u-body-font u-body-line-height u-letter-spacing-normal">
-    <header>
-      <!-- Menu Bar -->
-      <nav class="c-mobile-nav-top u-mobile-navbar">
-        <!-- Menu Button -->
-        <span id="navbar-toggle" onclick="showNav()">
-          <i class="fa fa-bars color-theme-highlighted"></i></span>
-        <!-- Website Logo -->
-        <a class="c-nav-logo__link" href="index.html">Digital design</a>
-        <!-- Menu List -->
-        <ul nav_list>
-          <li>
-            <a class="c-nav__link"  href="about-me.html">About me</a>
-          </li>
-          <li>
-            <a class="c-nav__link" href="#">Demo site</a>
-          </li>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Design System</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <link rel="stylesheet" type="text/css" href="design-system.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body class="u-body-font u-body-line-height u-letter-spacing-normal">
+  <header>
+    <!-- Menu Bar -->
+    <nav class="c-mobile-nav-top u-mobile-navbar">
+      <!-- Menu Button -->
+      <span id="navbar-toggle" onclick="showNav()">
+        <i class="fa fa-bars color-theme-highlighted"></i></span>
+      <!-- Website Logo -->
+      <a class="c-nav-logo__link" href="index.html">Digital design</a>
+      <!-- Menu List -->
+      <ul nav_list>
+        <li>
+          <a class="c-nav__link" href="about-me.html">About me</a>
+        </li>
+        <li>
+          <a class="c-nav__link" href="#">Demo site</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Side navbar -->
+  <aside>
+    <nav id="main-nav" class="c-nav-side-navbar">
+      <ul class="c-nav__list">
+        <li>
+          <a href="#" class="c-nav__link">
+            Branding
+          </a>
+        </li>
+        <ul class="c-nav__list">
+          <li class="c-list__item"><a href="colours.html" class="c-nav__link link--active">01 Colours</a></li>
+          <li><a href="typography.html" class="c-nav__link">02 Typography</a></li>
+          <li><a href="#" class="c-nav__link">03 Logo</a></li>
         </ul>
-      </nav>
-    </header>
-  
-    <!-- Side navbar -->
-    <aside>
-  <nav id="main-nav" class="c-nav-side-navbar">
-    <ul class="c-nav__list">
-      <li>
-        <a href="#" class="c-nav__link">
-          Branding
-        </a>
-      </li>
-    <ul class="c-nav__list">
-    <li class="c-list__item"><a href="colours.html" class="c-nav__link link--active">01 Colours</a></li>
-    <li><a href="typography.html" class="c-nav__link">02 Typography</a></li>
-    <li><a href="#" class="c-nav__link">03 Logo</a></li>
-  </ul>
-  
-  <li>
-    <a href="#" class="c-nav__link">
-      Utilities
-    </a>
-  </li>
-  <ul class="c-nav__list">
-    <li><a href="#" class="c-nav__link">04 Spacing</a></li>
-    <li><a href="#" class="c-nav__link">05 Containers</a></li>
-    <li><a href="#" class="c-nav__link">06 Images</a></li>
-    <li><a href="#" class="c-nav__link">07 Interactive</a></li>
-    <li><a href="#" class="c-nav__link">08 Feedback</a></li>
-  </ul>
-  
-  <li>
-    <a  href="#" class="c-nav__link">
-      Navigation
-    </a>
-  </li>
-  <ul class="c-nav__list">
-    <li><a href="#" class="c-nav__link">09 Navbars</a></li>
-    <li><a href="#" class="c-nav__link">10 Breadcrumbs</a></li>
-    <li><a href="#" class="c-nav__link">11 Pagination</a></li>
-  </ul>
-  
-  <li>
-    <a href="#" class="c-nav__link">
-      Blocks
-    </a>
-  </li>
-  <ul class="c-nav__list">
-    <li><a href="#" class="c-nav__link">12 Hero</a></li>
-    <li><a href="#" class="c-nav__link">13 Carousel</a></li>
-    <li><a href="#" class="c-nav__link">14 Slats</a></li>
-    <li><a href="#" class="c-nav__link">15 Footers</a></li>
-  </ul>
-  
-  <li>
-    <a href="#" class="c-nav__link">
-      Components
-    </a>
-  </li>
-  <ul class="c-nav__list">
-    <li><a href="#" class="c-nav__link">16 Cards</a></li>
-    <li><a href="#" class="c-nav__link">17 Forms</a></li>
-    <li><a href="#" class="c-nav__link">18 Accordion</a></li>
-    <li><a href="#" class="c-nav__link">19 Lists </a></li>
-  </ul>
-  </ul>
-  </nav>
+
+        <li>
+          <a href="#" class="c-nav__link">
+            Utilities
+          </a>
+        </li>
+        <ul class="c-nav__list">
+          <li><a href="#" class="c-nav__link">04 Spacing</a></li>
+          <li><a href="#" class="c-nav__link">05 Containers</a></li>
+          <li><a href="#" class="c-nav__link">06 Images</a></li>
+          <li><a href="#" class="c-nav__link">07 Interactive</a></li>
+          <li><a href="#" class="c-nav__link">08 Feedback</a></li>
+        </ul>
+
+        <li>
+          <a href="#" class="c-nav__link">
+            Navigation
+          </a>
+        </li>
+        <ul class="c-nav__list">
+          <li><a href="#" class="c-nav__link">09 Navbars</a></li>
+          <li><a href="#" class="c-nav__link">10 Breadcrumbs</a></li>
+          <li><a href="#" class="c-nav__link">11 Pagination</a></li>
+        </ul>
+
+        <li>
+          <a href="#" class="c-nav__link">
+            Blocks
+          </a>
+        </li>
+        <ul class="c-nav__list">
+          <li><a href="#" class="c-nav__link">12 Hero</a></li>
+          <li><a href="#" class="c-nav__link">13 Carousel</a></li>
+          <li><a href="#" class="c-nav__link">14 Slats</a></li>
+          <li><a href="#" class="c-nav__link">15 Footers</a></li>
+        </ul>
+
+        <li>
+          <a href="#" class="c-nav__link">
+            Components
+          </a>
+        </li>
+        <ul class="c-nav__list">
+          <li><a href="#" class="c-nav__link">16 Cards</a></li>
+          <li><a href="#" class="c-nav__link">17 Forms</a></li>
+          <li><a href="#" class="c-nav__link">18 Accordion</a></li>
+          <li><a href="#" class="c-nav__link">19 Lists </a></li>
+        </ul>
+      </ul>
+    </nav>
   </aside>
- 
 
-<!-- typography section  -->
 
-<div class="c-typography-part">
+  <!-- typography section  -->
+  <section class="c-font-families">
+    <div class="c-typography">
 
-    <section class="c-font-families">
-        <h2>Font Families</h2>
-        
-        <table class="c-font-families-style">
-          <tr>
-            <th class="c-font-families-heading">Heading Font: Crimson Pro, serif</th>
-            <th class="c-font-families-body-text">Body Text Font: Open Sans</th>
-          </tr>
+      <!-- typeface design for heading -->
 
-          <tr>
-            <td class="u-font-families-heading u-heading-font u-heading-bold">
-              A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-            </td>
-            <td class="u-font-families-heading u-heading-font u-heading-bold">
-              a b c d e f g h i j k l m n o p q r s t u v w x y z
-            </td>
-            <td class="u-font-families-heading u-heading-font u-heading-bold">
-              0 1 2 3 4 5 6 7 8 9
-            </td>
-          </tr>
+      <h2 class="u-heading-typography">typography</h2>
+      <div class="c-typography-font-family-style">
+        <div class="c-font-family-typfaces u-font-families u-heading-font u-body-text">
+          <h3 class="u-heading-bold u-heading-font u-heading-line-height u-heading-normal">font family - Crimson Pro</h3>
+          <p class="u-heading-bold u-heading-font u-heading-line-height u-heading-regular">Class name : fs-bold</p>
+          <p class="u-heading-bold u-heading-font u-heading-line-height u-heading-regular">font style - bold</p>
+          <p >A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
+          <p>a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
+          <p>0 1 2 3 4 5 6 7 8 9</p>
+        </div>
 
-          
-          <tr>
-            <td class="u-font-families-heading u-heading-font u-heading-regular">
-              A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-            </td>
-            <td class="u-font-families-heading u-heading-font u-heading-regular">
-              a b c d e f g h i j k l m n o p q r s t u v w x y z
-            </td>
-            <td class="u-font-families-heading u-heading-font u-heading-regular">
-              0 1 2 3 4 5 6 7 8 9
-            </td>
-          </tr>
+ <!-- typeface design for body text -->
 
-          
-          <tr>
-            <td class="u-font-families-body-text u-body-font u-body-bold">
-              A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-            </td>
-            <td class="u-font-families-body-text u-body-font u-body-bold">
-              a b c d e f g h i j k l m n o p q r s t u v w x y z
-            </td>
-            <td class="u-font-families-body-text u-body-font u-body-bold">
-              0 1 2 3 4 5 6 7 8 9
-            </td>
-          </tr>
+        <div class="c-font-family-typfaces u-font-families u-heading-font u-body-text">
+          <h3 class="u-heading-bold u-heading-font u-heading-line-height u-heading-normal">font family - Open Sans</h3>
+          <p class="u-heading-bold u-heading-font u-heading-line-height u-heading-light">Class name : fs-regular</p>
+          <p class="u-heading-bold u-heading-font u-heading-line-height u-heading-regular">font style - regular</p>
+          <p>A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
+          <p>a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
+          <p>0 1 2 3 4 5 6 7 8 9</p>
+        </div>
+      </div>
 
-          <tr>
-            <td class="u-font-families-body-text u-body-font u-body-regular">
-              A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-            </td>
-            <td class="u-font-families-body-text u-body-font u-body-regular">
-              a b c d e f g h i j k l m n o p q r s t u v w x y z
-            </td>
-            <td class="u-font-families-body-text u-body-font u-body-regular">
-              0 1 2 3 4 5 6 7 8 9
-            </td>
-          </tr>
-        </table>
-    </section>
-    
-      <!-- uses of font families -->
+      <!-- letter spacing -->
 
-    <section>
-        <h2>Font family uses</h2>
-    
-          <ul>
-            <li>Headings-</li>
-            <ul>
-                <li>font-large-size: 2rem</li>
-                <li>font-medium-size: 1.5rem</li>
-                <li>font-small-size: 1.25rem</li>
-                <li>font-weight: bold</li>
-                <li>font-weight: normal</li>
-                <li>line-height: 1.2</li>
-              </ul>
-          
-            <li>Body-text- </li>
-            <ul>
-                <li>font-large-size: 2rem</li>
-                <li>font-medium-size: 1rem</li>
-                <li>font-weight: normal</li>
-                <li>line-height: 1.5</li>
-                <li>letter-spacing-normal: 0.5px</li>
-              </ul>
-          </ul>
-      </section>
+      <div class="c-typography-font-family-style">
+        <div class="c-font-family-typfaces u-font-families u-heading-font u-body-text">
+          <h3 class="u-heading-bold u-heading-font u-heading-line-height u-heading-normal">Letter Spacing</h3>
+          <p class="u-heading-bold u-heading-font u-heading-line-height u-heading-regular">Class name : letter spacing</p>
+          <p class="u-heading-bold u-heading-font u-heading-line-height u-heading-regular">A--a</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Doloremque omnis ducimus molestias obcaecati officiis,
+            non quaerat rerum velit incidunt exercitationem culpa
+            nulla vel laboriosam commodi, expedita architecto iusto,
+            libero qui.</p>
+        </div>
 
-      <section>
-        <ul>
-          <li>Utility classes:</li>
-          <ul>
-            <li>u-heading-font</li>
-            <li>u-heading-bold</li>
-            <li>u-body-line-height</li>
-            <li>u-letter-spacing-normal</li>
-            <li>u-body-font</li>
-            <li>u-body-bold</li>
-          </ul>
-        </ul>
-      </section>
-    
+  <!-- line height -->
+
+        <div class="c-font-family-typfaces">
+          <h3 class="u-heading-bold u-heading-font u-heading-line-height u-heading-normal">Line height</h3>
+          <p class="u-heading-bold u-heading-font u-heading-line-height u-heading-regular">Class name : line height</p>
+          <p class="u-heading-bold u-heading-font u-heading-line-height u-heading-regular">
+            A
+            |
+            a
+          </p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Doloremque omnis ducimus molestias obcaecati officiis,
+            non quaerat rerum velit incidunt exercitationem culpa
+            nulla vel laboriosam commodi, expedita architecto iusto,
+            libero qui.</p>
+        </div>
+      </div>
+
+<!-- all heading styles with font sizes -->
+
+<!-- heading 1  -->
+
+
+      <div class="c-typography-font-family-style">
+      <div class="c-font-family-typfaces">
+        <h3 class="u-heading-bold u-heading-font u-heading-line-height u-heading-normal">heading 1</h3>
+        <p class="u-heading-bold u-heading-font u-heading-line-height u-heading-regular">Class name : heading 1</p>
+        <p class="u-heading-bold u-heading-font u-heading-line-height u-heading-regular">font size - 36px</p>
+      </div>
+
+      <div class="c-font-family-typfaces">
+        <h1 class="u-heading-bold u-heading-font u-heading-line-height u-heading-regular">Crimson Pro</h1>
+      </div>
+    </div>
+
+<!-- heading 2  -->
+
+    <div class="c-typography-font-family-style">
+      <div class="c-font-family-typfaces">
+        <h3 class="u-heading-bold u-heading-font u-heading-line-height u-heading-regular">heading 2</h3>
+        <p class="u-heading-bold u-heading-font u-heading-line-height u-heading-regular">Class name : heading 1</p>
+        <p class="u-heading-bold u-heading-font u-heading-line-height u-heading-regular">font size - 22px</p>
+      </div>
+
+      <div class="c-font-family-typfaces">
+        <h2 class="u-heading-bold u-heading-font u-heading-line-height u-heading-regular">Crimson Pro</h2>
+      </div>
+    </div>
+
+    <!-- heading 3  -->
+
+    <div class="c-typography-font-family-style">
+      <div class="c-font-family-typfaces">
+        <h3 class="u-heading-bold u-heading-font u-heading-line-height u-heading-regular">heading 3</h3>
+        <p class="u-heading-bold u-heading-font u-heading-line-height u-heading-regular">Class name : heading 1</p>
+        <p class="u-heading-bold u-heading-font u-heading-line-height u-heading-regular">font size - 20px</p>
+      </div>
+
+      <div class="c-font-family-typfaces">
+        <h3 class="u-heading-bold u-heading-font u-heading-line-height u-heading-regular">Crimson Pro</h3>
+      </div>
+    </div>
+
+<!-- heading 4  -->
+
+    <div class="c-typography-font-family-style">
+      <div class="c-font-family-typfaces">
+        <h3 class="u-heading-bold u-heading-font u-heading-line-height u-heading-regular">heading 4</h3>
+        <p class="u-heading-bold u-heading-font u-heading-line-height u-heading-regular">Class name : heading 1</p>
+        <p class="u-heading-bold u-heading-font u-heading-line-height u-heading-regular">font size - 18px - 20px</p>
+      </div>
+
+      <div class="c-font-family-typfaces">
+        <h4 class="u-heading-bold u-heading-font u-heading-line-height u-heading-regular">Crimson Pro</h4>
+      </div>
     </div>
 
 
 
-<script src="design-system.js"></script>
-  </body>
-  
+    <!-- body text with font size -->
+    <div class="c-typography-font-family-style">
+      <div class="c-font-family-typfaces">
+        <h3 class="u-heading-bold u-heading-font u-heading-line-height u-heading-regular">Body Text</h3>
+        <p class="u-heading-bold u-heading-font u-heading-line-height u-heading-regular">Class name : body text</p>
+        <p class="u-heading-bold u-heading-font u-heading-line-height u-heading-regular">Font Family - Open Sans</p>
+        <p class="u-heading-bold u-heading-font u-heading-line-height u-heading-regular">Font size - 16px</p>
+      </div>
+
+      <div>
+        <p>Lorem ipsum dolor sit amet consectetur,
+           adipisicing elit. Reprehenderit quisquam 
+           earum, repellendus enim modi similique voluptatum
+           dolorem, architecto quos repudiandae suscipit libero,
+           sapiente sequi quis ea doloremque! Totam, dignissimos 
+           tenetur.</p>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+  <!--Utility classes -->
+
+  <section>
+    <ul>
+      <li>Utility classes:</li>
+      <ul>
+        <li>u-heading-font</li>
+        <li>u-heading-bold</li>
+        <li>u-heading-line-height</li>
+        <li>u-body-line-height</li>
+        <li>u-letter-spacing-normal</li>
+        <li>u-body-font</li>
+        <li>u-body-bold</li>
+      </ul>
+    </ul>
+  </section>
+
+  <script src="design-system.js"></script>
+</body>
+
 </html>
