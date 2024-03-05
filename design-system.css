@@ -45,7 +45,8 @@ nav a:hover
 
 /* style the swatches colors */
 
-.c-container-colors{
+.c-container-colors,
+.c-typography-font-family-style{
       display: flex;
       flex-wrap: wrap;      
 }
@@ -62,6 +63,20 @@ nav a:hover
   align-items: center;
 
 }
+
+.c-font-family-typfaces{
+  width:600px;
+  height: 160px;
+  border: 1px solid #766262;
+  margin: 2px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+
+}
+
 
 
 @media screen and (min-width: 1200px) {

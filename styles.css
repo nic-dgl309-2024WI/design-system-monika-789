@@ -12,8 +12,8 @@
 
   /* Accent colors  */
  
-  --clr-accent-three-100: #ad5c1c;   /* for primary button option */
-  --clr-accent-one-200: #ffff00;   /* for links option */
+  --clr-accent-one: #ad5c1c;   /* for primary button option */
+  --clr-accent-two: #ffff00;   /* for links option */
 
   
   /* Addtional color */
@@ -68,6 +68,339 @@
    --body-letter-spacing-normal: 1px;
 
 }
+
+/* utility classes */
+
+/* colors */
+
+.u-heading-primary-color{
+  color: var( --clr-primary-headings);     /* for headings */
+}
+
+.u-heading-secondary-color{
+  color: var( --clr-secondary-headings);   /* for body text */
+}
+
+.u-heading-additional-color{
+  color: var( --clr-additional-heading);     /* for additional text */
+}
+
+.u-heading-primary-bg-color{
+  background-color: var(--clr-primary-bg);    /* for background */
+}
+
+.u-heading-accent-colo{
+  color: var( --clr-accent-one);    /* for links/buttons */
+}
+
+/* typography */
+
+
+
+
+/* spacing classes */
+
+/* margin */
+
+/* Apply margin to all four sides */
+
+.l-m-1 {
+  margin: 1rem;
+}
+
+.l-m-1-25 {
+  margin: 1.25rem;
+}
+
+.l-m-1-5 {
+  margin: 1.5rem;
+}
+.l-m-1-75 {
+  margin: 1.75rem;
+}
+.l-m-2 {
+  margin: 2rem;
+}
+
+/* Apply margin to top sides */
+
+.l-mt-1 {
+  margin: 1rem;
+}
+
+.l-mt-1-25 {
+  margin: 1.25rem;
+}
+
+.l-mt-1-5 {
+  margin: 1.5rem;
+}
+.l-mt-1-75 {
+  margin: 1.75rem;
+}
+.l-mt-2 {
+  margin: 2rem;
+}
+
+
+/* Apply margin to bottom sides */
+.l-mb-1 {
+  margin: 1rem;
+}
+
+.l-mb-1-25 {
+  margin: 1.25rem;
+}
+
+.l-mb-1-5 {
+  margin: 1.5rem;
+}
+.l-mb-1-75 {
+  margin: 1.75rem;
+}
+.l-mb-2 {
+  margin: 2rem;
+}
+
+/* Apply margin to right sides */
+
+.l-mr-1 {
+  margin: 1rem;
+}
+
+.l-mr-1-25 {
+  margin: 1.25rem;
+}
+
+.l-mr-1-5 {
+  margin: 1.5rem;
+}
+.l-mr-1-75 {
+  margin: 1.75rem;
+}
+.l-mr-2 {
+  margin: 2rem;
+}
+
+/* Apply margin to left sides */
+
+
+.l-ml-1 {
+  margin: 1rem;
+}
+
+.l-ml-1-25 {
+  margin: 1.25rem;
+}
+
+.l-ml-1-5 {
+  margin: 1.5rem;
+}
+.l-ml-1-75 {
+  margin: 1.75rem;
+}
+.l-ml-2 {
+  margin: 2rem;
+}
+
+/* Apply margin to X sides */
+
+.l-mx-2 {
+  margin-left: 2rem ;
+
+  margin-right: 2rem;
+}
+
+/* Apply margin to Y sides */
+
+.l-my-2 {
+  margin-left: 2rem ;
+  
+  margin-right: 2rem;
+}
+
+
+
+/* padding */
+
+/* Apply padding to all four sides */
+
+.l-p-1 {
+  padding: 1rem;
+}
+
+.l-p-1-25 {
+  padding: 1.25rem;
+}
+
+.l-p-1-5 {
+  padding: 1.5rem;
+}
+.l-p-1-75 {
+  padding: 1.75rem;
+}
+.l-p-2 {
+  padding: 2rem;
+}
+
+/* Apply padding to top sides */
+
+.l-pt-1 {
+  padding: 1rem;
+}
+
+.l-pt-1-25 {
+  padding: 1.25rem;
+}
+
+.l-pt-1-5 {
+  padding: 1.5rem;
+}
+.l-pt-1-75 {
+  padding: 1.75rem;
+}
+.l-pt-2 {
+  padding: 2rem;
+}
+
+
+/* Apply padding to bottom sides */
+.l-pb-1 {
+  padding: 1rem;
+}
+
+.l-pb-1-25 {
+  padding: 1.25rem;
+}
+
+.l-pb-1-5 {
+  padding: 1.5rem;
+}
+.l-pb-1-75 {
+  padding: 1.75rem;
+}
+.l-pb-2 {
+  padding: 2rem;
+}
+
+/* Apply padding to right sides */
+
+.l-pr-1 {
+  padding: 1rem;
+}
+
+.l-pr-1-25 {
+  padding: 1.25rem;
+}
+
+.l-pr-1-5 {
+  padding: 1.5rem;
+}
+.l-pr-1-75 {
+  padding: 1.75rem;
+}
+.l-pr-2 {
+  padding: 2rem;
+}
+
+/* Apply padding to left sides */
+
+
+.l-pl-1 {
+  padding: 1rem;
+}
+
+.l-pl-1-25 {
+  padding: 1.25rem;
+}
+
+.l-pl-1-5 {
+  padding: 1.5rem;
+}
+.l-pl-1-75 {
+  padding: 1.75rem;
+}
+.l-pl-2 {
+  padding: 2rem;
+}
+
+/* Apply padding to X sides */
+
+.l-px-2 {
+  padding-left: 2rem ;
+
+  padding-right: 2rem;
+}
+
+/* Apply padding to Y sides */
+
+.l-py-2 {
+  padding-left: 2rem ;
+  
+  padding-right: 2rem;
+}
+
+
+/* Apply flex layout classes */
+
+.l-flex {
+  display: flex;     /* display: flex */
+}
+
+.l-flex-row {
+  flex-direction: row;      /* Flex direction: row */
+}
+
+.l-flex-column {
+  flex-direction: column;          /* Flex direction: column */
+}
+
+
+/* Justify content */
+
+.l-justify-center {
+  justify-content: center;      /* Justify content: center */
+}
+
+.l-justify-between {
+  justify-content: space-between;      /* Justify content: space-between */
+}
+
+.l-justify-start {
+  justify-content: flex-start;       /* Justify content: flex-start */
+}
+
+.l-justify-end {
+  justify-content: flex-end;       /* Justify content: flex-end */
+}
+
+.l-justify-around {
+  justify-content: space-around;       /* Justify content: space-around */
+}
+
+
+/* Align items */
+
+.l-align-center {
+  align-items: center;        /* Align items: center */
+}
+
+.l-align-start {
+  align-items: flex-start;       /* Align items: flex-start */
+}
+
+.l-align-end {
+  align-items: flex-end;       /* Align items: flex-end */
+}
+
+.l-align-stretch {
+  align-items: stretch;       /* Align items: stretch */
+}
+
+.l-align-baseline {
+  align-items: baseline;      /* Align items: baseline */
+}
+
 
 
 /* CSS Reset */
