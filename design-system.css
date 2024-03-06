@@ -27,7 +27,7 @@ nav ul {
 .c-nav-side-navbar li a,
 .c-mobile-nav-top a {
   text-decoration: none;
-  color: var(--clr-primary-text-100);
+  color: var(--clr-primary-text);
   font-weight: bold;
 }
 
@@ -35,7 +35,7 @@ nav ul {
 
 nav a:hover
   {
-  color: var(--clr-accent-three-700);
+  color: var(--clr-hover-active);
 }
 
 #main-nav {
@@ -117,7 +117,7 @@ nav a:hover
   .c-nav-side-navbar li a,
   .c-mobile-nav-top a  {
     text-decoration: none;
-    color: var(--clr-primary-text-100);
+    color: var(--clr-primary-text);
     font-weight: bold;
   }
 
@@ -125,7 +125,7 @@ nav a:hover
 
   /* changing the color of Menu list elements */
     {
-    color: var(--clr-accent-three-700);
+    color: var(--clr-hover-active);
   }
 
   

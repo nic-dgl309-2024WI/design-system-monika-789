@@ -21,6 +21,11 @@
   --clr-additional-heading: #515050;
   --clr-additional-bg: #f9f6f2;
 
+/* Active hover color  */
+ 
+--clr-hover-active: #ad5c1c;   /* for hover color */
+
+
 
   /* Font-families */
 
@@ -85,7 +90,7 @@
   color: var( --clr-additional-heading);     /* for additional text */
 }
 
-.u-heading-primary-bg-color{
+.u-heading-primary-color {
   background-color: var(--clr-primary-bg);    /* for background */
 }
 
@@ -122,7 +127,7 @@
   margin: 2rem;
 }
 
-/* Apply margin to top sides */
+/* Apply margin to top side */
 
 .l-mt-1 {
   margin: 1rem;
@@ -143,7 +148,7 @@
 }
 
 
-/* Apply margin to bottom sides */
+/* Apply margin to bottom side */
 .l-mb-1 {
   margin: 1rem;
 }
@@ -162,7 +167,7 @@
   margin: 2rem;
 }
 
-/* Apply margin to right sides */
+/* Apply margin to right side */
 
 .l-mr-1 {
   margin: 1rem;
@@ -182,7 +187,7 @@
   margin: 2rem;
 }
 
-/* Apply margin to left sides */
+/* Apply margin to left side */
 
 
 .l-ml-1 {
@@ -203,22 +208,19 @@
   margin: 2rem;
 }
 
-/* Apply margin to X sides */
+/* Apply margin to X side */
 
-.l-mx-2 {
-  margin-left: 2rem ;
-
-  margin-right: 2rem;
+.l-mx-1 {
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
-/* Apply margin to Y sides */
+/* Apply margin to y side */
 
-.l-my-2 {
-  margin-left: 2rem ;
-  
-  margin-right: 2rem;
+.l-my-1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
-
 
 
 /* padding */
@@ -243,7 +245,7 @@
   padding: 2rem;
 }
 
-/* Apply padding to top sides */
+/* Apply padding to top side */
 
 .l-pt-1 {
   padding: 1rem;
@@ -264,7 +266,7 @@
 }
 
 
-/* Apply padding to bottom sides */
+/* Apply padding to bottom side */
 .l-pb-1 {
   padding: 1rem;
 }
@@ -283,7 +285,7 @@
   padding: 2rem;
 }
 
-/* Apply padding to right sides */
+/* Apply padding to right side */
 
 .l-pr-1 {
   padding: 1rem;
@@ -303,7 +305,7 @@
   padding: 2rem;
 }
 
-/* Apply padding to left sides */
+/* Apply padding to left side */
 
 
 .l-pl-1 {
@@ -324,20 +326,18 @@
   padding: 2rem;
 }
 
-/* Apply padding to X sides */
+/* Apply padding to X side */
 
-.l-px-2 {
-  padding-left: 2rem ;
-
-  padding-right: 2rem;
+.l-px-1 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
-/* Apply padding to Y sides */
+/* Apply padding to y side */
 
-.l-py-2 {
-  padding-left: 2rem ;
-  
-  padding-right: 2rem;
+.l-py-1 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 
@@ -400,6 +400,81 @@
 .l-align-baseline {
   align-items: baseline;      /* Align items: baseline */
 }
+
+
+
+/* Apply grid layout classes */
+
+.l-grid {
+  display: grid;
+}
+
+/* Create grid columns */
+
+.l-grid-columns-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.l-grid-columns-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.l-grid-columns-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/*Create grid rows */
+
+.l-grid-rows-2 {
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.l-grid-rows-3 {
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.l-grid-rows-4 {
+  grid-template-rows: repeat(4, 1fr);
+}
+
+/* Create grid gap */
+
+.l-grid-gap-1 {
+  gap: 1rem;
+}
+
+.l-grid-gap-1-5 {
+  gap: 1.5rem;
+}
+
+.l-grid-gap-2 {
+  gap: 2rem;
+}
+
+.l-grid-gap-3 {
+  gap: 3rem;
+}
+
+
+/*Container classes for mobile view*/
+
+.mobile-container {   
+  max-width: 100%;     /* max-width on mobile */
+}
+
+.full-width {
+  width: 100%;   /* full width by default */
+}
+
+
+/*Container classes for desktop view*/
+
+.desktop-container {
+  max-width: 1200px;      /* max-width on desktop */
+  margin: 0 auto;
+
+}
+
 
 
 
