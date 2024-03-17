@@ -31,6 +31,10 @@ nav ul {
   font-weight: bold;
 }
 
+.c-nav__link--active{
+  color: var(--clr-secondary-text);
+}
+
 /* changing the color of Menu list elements */
 
 nav a:hover
