@@ -3,12 +3,12 @@
   /* Primary colors */
   --clr-primary-text: #1c1b1b; 
   --clr-primary-bg: #fde7d0;
-  --clr-primary-headings: #ad5c1c;
+  --clr-primary-heading: #ad5c1c;
 
   /* Secondary colors*/
   --clr-secondary-bg: #f0e9e5;
   --clr-secondary-text: #6a6a6a;
-  --clr-secondary-headings: #142115;
+  --clr-secondary-heading: #142115;
 
   /* Accent colors  */
  
@@ -79,23 +79,39 @@
 /* colors */
 
 .u-heading-primary-color{
-  color: var( --clr-primary-headings);     /* for headings */
+  color: var( --clr-primary-heading);     /* for headings */
 }
 
 .u-heading-secondary-color{
-  color: var( --clr-secondary-headings);   /* for body text */
+  color: var(--clr-secondary-heading);     /* for headings */
 }
 
 .u-heading-additional-color{
-  color: var( --clr-additional-heading);     /* for additional text */
+  color: var(--clr-additional-heading);     /* for additional text */
 }
 
-.u-heading-primary-color {
+.u-body-text-primary-color{
+  color: var(--clr-primary-text);     /* for additional text */
+}
+
+.u-subtext-secondary-color{
+  color: var(--clr-secondary-text);     /* for additional text */
+}
+
+.u-bg-primary-color {
   background-color: var(--clr-primary-bg);    /* for background */
 }
 
-.u-heading-accent-colo{
+.u-bg-secondary-color {
+  background-color: var(--clr-secondary-bg);    /* for background */
+}
+
+.u-heading-accent-button-color{
   color: var( --clr-accent-one);    /* for links/buttons */
+}
+
+.u-heading-accent-link-color{
+  color: var( --clr-accent-two);    /* for links/buttons */
 }
 
 /* typography */
