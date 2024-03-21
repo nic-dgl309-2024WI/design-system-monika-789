@@ -23,17 +23,14 @@ nav ul {
   cursor: pointer;
 }
 
-.c-mobile-nav-top li a,
-.c-nav-side-navbar li a,
-.c-mobile-nav-top a {
+.c-nav__link, .c-nav-logo__link
+{
   text-decoration: none;
   color: var(--clr-primary-text);
   font-weight: bold;
 }
 
-.c-nav__link--active{
-  color: var(--clr-secondary-text);
-}
+
 
 /* changing the color of Menu list elements */
 
@@ -41,6 +38,11 @@ nav a:hover
   {
   color: var(--clr-hover-active);
 }
+
+.link--active {
+  color: var(--clr-secondary-text);
+}
+
 
 #main-nav {
   display: none;
@@ -121,13 +123,6 @@ nav a:hover
     display: none;
   }
 
-  .c-mobile-nav-top li a,
-  .c-nav-side-navbar li a,
-  .c-mobile-nav-top a  {
-    text-decoration: none;
-    color: var(--clr-primary-text);
-    font-weight: bold;
-  }
 
   nav a:hover
 
