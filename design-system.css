@@ -80,9 +80,15 @@ nav a:hover
   flex-direction: column;
   justify-content: space-between;
 
-
 }
 
+.c-containers-border-box{
+  width: 600px;
+  border: 1px solid #766262;
+  border-radius: 4px;
+  margin: 2px;
+
+}
 
 .c-color-combinations__table td{
   padding-left: 20px;
