@@ -525,3 +525,170 @@ ul,
 ol {
   padding: 0;
 }
+
+
+
+/* Outback nursery layout */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:1200px) {
+
+  /* navigation style */
+
+  header{
+    background-color: var(--clr-primary-bg);
+  }
+
+  /* hide mobile navigation */
+  #nav-links{
+    display: none; 
+  }
+  .menu-btn{
+    display: none;     
+  }
+
+
+  /* logo size  */
+
+  .logo-img {            
+    width: 25%;
+    height: auto;
+  }
+
+  .nav__list{
+    list-style: none;
+  }
+
+  /* nav list style  */
+
+  .nav__list li a {
+    display: inline-block;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: var(--clr-secondary-heading); 
+    font-size: 1.2rem;
+
+  }
+
+  .header__desktop-menu-nav
+  .nav__list{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+
+  .main_btn{
+    bottom: 135px;
+    position: absolute;
+    right: 40.2rem;
+  }
+
+  .main-link {
+    padding: 1.2rem 2.5rem;
+    background-color: var( --clr-accent-one);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+  }
+  
+
+  /* Width of carousel */
+#window,
+#slide-container {
+  width: 100%;
+}
+
+/* Height of carousel */
+#slide-container {
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slide {
+  width: 100%;
+  min-height: 200px;
+}
+
+.slides {
+  display: block;
+}
+
+/* Style of arrows */
+.arrow {
+  color: white;
+  font-size: 26px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+  padding: 16px;
+  background-color: rgba(0, 0, 0, 0);
+  transition: background-color 0.3s ease;
+}
+
+.arrow:hover {
+  cursor: pointer;
+  background-color: var(--transparent-grey);
+}
+
+#next {
+  left: 100%;
+  transform: translate(-100%, -50%);
+  border-radius: 4px 0px 0px 4px;
+}
+
+#previous {
+  border-radius: 0px 4px 4px 0px;
+}
+
+/* dots style  */
+#dotsContainer {
+  width: 100%;
+  height: 20px;
+  text-align: center;
+}
+
+.dots {
+  width: 8px;
+  height: 8px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 100%;
+  display: inline-block;
+  margin: 8px 2px;
+}
+
+.dots:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.activeDot {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+}
+
+

@@ -6,15 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
 </head>
 
 <body>
     <header>
-    <div class="header__desktop-menu">
+    <div class="header">
+        <div class="menu-btn">
+            <i class="fa-solid fa-bars"></i>
+          </div>
         <!-- top navigation for desktop -->
-        <nav class="header__desktop-menu-nav">
+        <nav class="header__desktop-menu-nav l-flex l-flex-row  l-justify-between l-align-center">
             <div class="header__desktop-menu-logo">
-                <a href="index.html">Logo</a>
+                <a href="index.html"> <img src="images/outback-nursery-logo.png" alt="logo" class="logo-img"/></a>
             </div>
             
               <ul  class="nav__list">
@@ -26,6 +32,9 @@
                 <li class="nav__list-item"><a href="coming soon.html">Contact Us</a></li>
                
               </ul>
+              <div class="icons">
+                <i class="fa-brands fa-square-facebook" style="color: #1c1b1b;"></i>
+              </div>
            
         </nav>
         <!-- top navigation for mobile -->
@@ -36,20 +45,16 @@
             <li class="nav__list-item"><a href="coming soon.html">Gift & Certificates</a></li>
             <li class="nav__list-item"><a href="coming soon.html">Blog</a></li>
             <li class="nav__list-item"><a href="coming soon.html">About Us</a></li>
-            <li class="nav__list-item"><a href="coming soon.html">Contact Us</a></li>
-            
+            <li class="nav__list-item"><a href="coming soon.html">Contact Us</a></li>  
         </ul>
       </nav> 
-      
-      
     </div>
 </header>
 
-<main> <!-- Hero Section -->
+
+<main> 
+    <!-- Hero Section -->
     <div class="hero">
-      <div class="main_btn">
-        <a href="index.html" class="main-link">Blossom with Us</a>
-      </div>
       <div id="window">
         <div id="slide-container">
             
@@ -67,13 +72,13 @@
           <div class="slides">
             <img class="slide" src="images/trees/3.jpg" alt="hedgerow of Thuja 'Forever Goldy'"> 
           </div>
-          <!-- <a id="previous" class="arrow">&#10094</a>
+          <a id="previous" class="arrow">&#10094</a>
           <a id="next" class="arrow">&#10095</a>
-          <div id="text-bar">
-            <p id="place"></p>
-          </div> -->
         </div>
-        <!-- <div id="dotsContainer"></div> -->
+        <div id="dotsContainer"></div>
+      </div>
+      <div class="main_btn">
+        <a href="index.html" class="main-link">Blossom with Us</a>
       </div>
     </div>
 
@@ -106,10 +111,43 @@
     </div>
 
     <div class="main_btn">
-        <a href="index.html" class="main-link">bloom Catalouge</a>
+        <a href="index.html" class="main-link">Bloom Catalouge</a>
       </div>
 
   </div>
+
+  <section>
+    <div>
+        <h2>
+          Nature's Beauty
+          <br>
+           Delivered with Care
+        </h2>
+        <div>
+       <div>
+        <p>
+          Delivery  
+        </p>
+         <div>
+            <i class="fa-solid fa-truck" style="color: #1c1b1b;"></i>
+         </div>
+       </div>
+       <div>
+            <p>
+              Plant Tips 
+            </p>
+             <div>
+                <i class="fa-solid fa-hand-holding-seedling" style="color: #1c1b1b;"></i>
+             </div>
+       </div>
+        </div>
+    <div class="main_btn">
+        <a href="index.html" class="main-link">Bring Nature Home</a>
+      </div>
+
+       
+    </div>
+  </section>
 
 
 
