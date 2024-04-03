@@ -73,7 +73,178 @@
    --body-letter-spacing-normal-1: 0.5px;
    --body-letter-spacing-normal-2: 1px;
 
+
+
+   
+/* spacing classes */
+
+/* margin */
+
+/* Apply margin to all four sides */
+
+   --l-m-1: 1rem;
+   --l-m-1-25: 1.25rem;
+   --l-m-1-5: 1.5rem;
+   --l-m-1-75: 1.75rem;
+   --l-m-2: 2rem;
+
+
+/* Apply margin to top side */
+
+   --l-mt-1: 1rem;
+   --l-mt-1-25: 1.25rem;
+   --l-mt-1-5: 1.5rem;
+   --l-mt-1-75: 1.75rem;
+   --l-mt-2: 2rem;
+
+
+/* Apply margin to bottom side */
+
+   --l-mb-1: 1rem;
+   --l-mb-1-25: 1.25rem;
+   --l-mb-1-5: 1.5rem;
+   --l-mb-1-75: 1.75rem;
+   --l-mb-2: 2rem;
+
+
+/* Apply margin to right side */
+
+   --l-mr-1: 1rem;
+   --l-mr-1-25: 1.25rem;
+   --l-mr-1-5: 1.5rem;
+   --l-mr-1-75: 1.75rem;
+   --l-mr-2: 2rem;
+
+
+/* Apply margin to left side */
+
+    --l-ml-1: 1rem;
+    --l-ml-1-25: 1.25rem;
+    --l-ml-1-5: 1.5rem;
+    --l-ml-1-75: 1.75rem;
+    --l-ml-2: 2rem;
+
+
+/* Apply margin to X side */
+
+   --l-mx-1: 1rem;
+
+/* Apply margin to y side */
+
+   --l-my-1: 1rem;
+   
+
+
+/* padding */
+
+/* Apply padding to all four sides */
+
+   --l-p-1: 1rem;
+   --l-p-1-25: 1.25rem;
+   --l-p-1-5: 1.5rem;
+   --l-p-1-75: 1.75rem;
+   --l-p-2: 2rem;
+  
+   
+/* Apply padding to top side */
+
+--l-pt-1: 1rem;
+   --l-pt-1-25: 1.25rem;
+   --l-pt-1-5: 1.5rem;
+   --l-pt-1-75: 1.75rem;
+   --l-pt-2: 2rem;
+
+
+   /* Apply padding to bottom side */
+
+   --l-pb-1: 1rem;
+   --l-pb-1-25: 1.25rem;
+   --l-pb-1-5: 1.5rem;
+   --l-pb-1-75: 1.75rem;
+   --l-pb-2: 2rem;
+
+
+   /* Apply padding to right side */
+
+   --l-pr-1: 1rem;
+   --l-pr-1-25: 1.25rem;
+   --l-pr-1-5: 1.5rem;
+   --l-pr-1-75: 1.75rem;
+   --l-pr-2: 2rem;
+
+
+/* Apply padding to left side */
+
+--l-pl-1: 1rem;
+   --l-pl-1-25: 1.25rem;
+   --l-pl-1-5: 1.5rem;
+   --l-pl-1-75: 1.75rem;
+   --l-pl-2: 2rem;
+
+
+/* Apply padding to X side */
+
+--l-px-1: 1rem;
+
+
+/* Apply padding to y side */
+
+--l-py-1: 1rem;
+
+
+
+/* Apply flex layout classes */
+
+--l-flex: flex;
+--l-flex-row: row;
+--l-flex-column: column;
+
+
+/* Justify content */
+
+--l-justify-center: center;
+--l-justify-between: space-between;
+--l-justify-start: flex-start;
+--l-justify-end: flex-end;
+--l-justify-around: space-around;
+
+
+/* Align items */
+
+--l-align-center: center;
+--l-align-start: flex-start;
+--l-align-end: flex-end;
+--l-align-stretch: stretch;
+--l-align-baseline: baseline;
+
+
+/* Apply grid layout classes */
+
+--l-grid: grid;
+--l-grid-columns-1: 1fr;
+--l-grid-columns-2: repeat(2, 1fr);
+--l-grid-columns-3: repeat(3, 1fr);
+--l-grid-columns-4: repeat(4, 1fr);
+
+
+/*Create grid rows */
+
+--l-grid: grid;
+--l-grid-rows-1: 1fr;
+--l-grid-rows-2: repeat(2, 1fr);
+--l-grid-rows-3: repeat(3, 1fr);
+--l-grid-rows-4: repeat(4, 1fr);
+
+
+/* Create grid gap */
+
+--l-grid-gap-1: 1rem;
+--l-grid-gap-1-5: 1.5rem;
+--l-grid-gap-2: 2rem;
+--l-grid-gap-3: 3rem;
+
 }
+
 
 /* utility classes */
 
@@ -115,9 +286,11 @@
   color: var( --clr-accent-two);    /* for links/buttons */
 }
 
+
 /* typography classes */
 
 /* Heading Font Family */
+
 .u-heading-font{
   font-family: var(--heading-font);
 }
@@ -128,6 +301,7 @@
 
 
 /* Font size */
+
 .u-heading-l-s{
   font-size: var(--heading-large-size) ;
 }
@@ -151,6 +325,7 @@
 
 
 /* Font-weight */
+
 .u-heading-font-weight-b{
   font-weight: var(--heading-font-weight-b);
 }
@@ -164,6 +339,7 @@
 }
 
 /* Line-height */
+
 .u-heading-line-height-1{
   line-height: var( --heading-line-height-1);
 }
@@ -182,6 +358,7 @@
 
 
 /* Letter-spacing */
+
 .u-heading-letter-spacing-1{
   letter-spacing: var(--heading-letter-spacing-1);
 }
@@ -224,6 +401,7 @@
   margin: var(--l-m-2);
 }
 
+
 /* Apply margin to top side */
 
 .l-mt-1 {
@@ -246,6 +424,7 @@
 
 
 /* Apply margin to bottom side */
+
 .l-mb-1 {
   margin: var(--l-mb-1);
 }
@@ -264,6 +443,7 @@
   margin: var(--l-mb-2);
 }
 
+
 /* Apply margin to right side */
 
 .l-mr-1 {
@@ -277,6 +457,7 @@
 .l-mr-1-5 {
   margin: var(--l-mr-1-5);
 }
+
 .l-mr-1-75 {
   margin: var(--l-mr-1-75);
 }
@@ -284,8 +465,8 @@
   margin: var(--l-mr-2);
 }
 
-/* Apply margin to left side */
 
+/* Apply margin to left side */
 
 .l-ml-1 {
   margin: var(--l-ml-1);
@@ -305,18 +486,19 @@
   margin: var(--l-ml-2);
 }
 
+
 /* Apply margin to X side */
 
 .l-mx-1 {
-  margin: var(--l-mx-1-25);
-  margin-right: 1rem;
+  margin-left: var(--l-mx-1);
+  margin-right: var(--l-mx-1);
 }
 
 /* Apply margin to y side */
 
 .l-my-1 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: var(--l-my-1);
+  margin-bottom: var(--l-my-1);
 }
 
 
@@ -325,177 +507,181 @@
 /* Apply padding to all four sides */
 
 .l-p-1 {
-  padding: 1rem;
+  padding: var(--l-p-1);
 }
 
 .l-p-1-25 {
-  padding: 1.25rem;
+  padding: var(--l-p-1-25);
 }
 
 .l-p-1-5 {
-  padding: 1.5rem;
+  padding: var(--l-p-1-5);
 }
 .l-p-1-75 {
-  padding: 1.75rem;
+  padding: var(--l-p-1-75);
 }
 .l-p-2 {
-  padding: 2rem;
+  padding: var(--l-p-2);
 }
+
 
 /* Apply padding to top side */
 
 .l-pt-1 {
-  padding: 1rem;
+  padding: var(--l-pt-1);
 }
 
 .l-pt-1-25 {
-  padding: 1.25rem;
+  padding: var(--l-pt-1-25);
 }
 
 .l-pt-1-5 {
-  padding: 1.5rem;
+  padding: var(--l-pt-1-5);
 }
 .l-pt-1-75 {
-  padding: 1.75rem;
+  padding: var(--l-pt-1-75);
 }
 .l-pt-2 {
-  padding: 2rem;
+  padding: var(--l-pt-2);
 }
 
 
 /* Apply padding to bottom side */
 .l-pb-1 {
-  padding: 1rem;
+  padding: var(--l-pb-1);
 }
 
 .l-pb-1-25 {
-  padding: 1.25rem;
+  padding: var(--l-pb-1-25);
 }
 
 .l-pb-1-5 {
-  padding: 1.5rem;
+  padding: var(--l-pb-1-5);
 }
 .l-pb-1-75 {
-  padding: 1.75rem;
+  padding: var(--l-pb-1-75);
 }
 .l-pb-2 {
-  padding: 2rem;
+  padding: var(--l-pb-2);
 }
+
 
 /* Apply padding to right side */
 
 .l-pr-1 {
-  padding: 1rem;
+  padding: var(--l-pr-1);
 }
 
 .l-pr-1-25 {
-  padding: 1.25rem;
+  padding: var(--l-pr-1-25);
 }
 
 .l-pr-1-5 {
-  padding: 1.5rem;
+  padding: var(--l-pr-1-5);
 }
 .l-pr-1-75 {
-  padding: 1.75rem;
+  padding: var(--l-pr-1-75);
 }
 .l-pr-2 {
-  padding: 2rem;
+  padding: var(--l-pr-2);
 }
+
 
 /* Apply padding to left side */
 
 
 .l-pl-1 {
-  padding: 1rem;
+  padding: var(--l-pl-1);
 }
 
 .l-pl-1-25 {
-  padding: 1.25rem;
+  padding: var(--l-pl-1-25);
 }
 
 .l-pl-1-5 {
-  padding: 1.5rem;
+  padding: var(--l-pl-1-5);
 }
 .l-pl-1-75 {
-  padding: 1.75rem;
+  padding: var(--l-pl-1-75);
 }
 .l-pl-2 {
-  padding: 2rem;
+  padding: var(--l-pl-2);
 }
+
 
 /* Apply padding to X side */
 
 .l-px-1 {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: var(--l-px-1);
+  padding: var(--l-px-1);
 }
 
 /* Apply padding to y side */
 
 .l-py-1 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding: var(--l-py-1);
+  padding: var(--l-py-1);
 }
 
 
 /* Apply flex layout classes */
 
 .l-flex {
-  display: flex;     /* display: flex */
+  display: var(--l-flex);     /* display: flex */
 }
 
 .l-flex-row {
-  flex-direction: row;      /* Flex direction: row */
+  flex-direction: var(--l-flex-row);      /* Flex direction: row */
 }
 
 .l-flex-column {
-  flex-direction: column;          /* Flex direction: column */
+  flex-direction: var(--l-flex-column);          /* Flex direction: column */
 }
 
 
 /* Justify content */
 
 .l-justify-center {
-  justify-content: center;      /* Justify content: center */
+  justify-content:var(--l-justify-center);      /* Justify content: center */
 }
 
 .l-justify-between {
-  justify-content: space-between;      /* Justify content: space-between */
+  justify-content: var(--l-justify-between);      /* Justify content: space-between */
 }
 
 .l-justify-start {
-  justify-content: flex-start;       /* Justify content: flex-start */
+  justify-content: var(--l-justify-start);       /* Justify content: flex-start */
 }
 
 .l-justify-end {
-  justify-content: flex-end;       /* Justify content: flex-end */
+  justify-content: var(--l-justify-end);       /* Justify content: flex-end */
 }
 
 .l-justify-around {
-  justify-content: space-around;       /* Justify content: space-around */
+  justify-content: var(--l-justify-around);       /* Justify content: space-around */
 }
 
 
 /* Align items */
 
 .l-align-center {
-  align-items: center;        /* Align items: center */
+  align-items: var(--l-align-center);        /* Align items: center */
 }
 
 .l-align-start {
-  align-items: flex-start;       /* Align items: flex-start */
+  align-items: var(--l-align-start);       /* Align items: flex-start */
 }
 
 .l-align-end {
-  align-items: flex-end;       /* Align items: flex-end */
+  align-items: var(--l-align-end);       /* Align items: flex-end */
 }
 
 .l-align-stretch {
-  align-items: stretch;       /* Align items: stretch */
+  align-items: var(--l-align-stretch);       /* Align items: stretch */
 }
 
 .l-align-baseline {
-  align-items: baseline;      /* Align items: baseline */
+  align-items: var(--l-align-baseline);      /* Align items: baseline */
 }
 
 
@@ -503,62 +689,65 @@
 /* Apply grid layout classes */
 
 .l-grid {
-  display: grid;
+  display: var(--l-grid);
 }
+
 
 /* Create grid columns */
 
+.l-grid-columns-1 {
+  grid-template-columns: var(--l-grid-columns-1);
+}
+
 .l-grid-columns-2 {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: var(--l-grid-columns-1) var(--l-grid-columns-2);
 }
 
 .l-grid-columns-3 {
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: var(--l-grid-columns-1) var(--l-grid-columns-2) var(--l-grid-columns-3);
 }
 
 .l-grid-columns-4 {
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: var(--l-grid-columns-1) var(--l-grid-columns-2) var(--l-grid-columns-3) var(--l-grid-columns-4);
 }
+
 
 /*Create grid rows */
 
+.l-grid-rows-1 {
+  grid-template-rows: var(--l-grid-rows-1);
+}
+
 .l-grid-rows-2 {
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows:var(--l-grid-rows-1) var(--l-grid-rows-2);
 }
 
 .l-grid-rows-3 {
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: var(--l-grid-rows-1) var(--l-grid-rows-2) var(--l-grid-rows-3);
 }
 
 .l-grid-rows-4 {
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: var(--l-grid-rows-1) var(--l-grid-rows-2) var(--l-grid-rows-3) var(--l-grid-rows-4);
 }
+
 
 /* Create grid gap */
 
 .l-grid-gap-1 {
-  gap: 1rem;
+  gap: var(--l-grid-gap-1);
 }
 
 .l-grid-gap-1-5 {
-  gap: 1.5rem;
+  gap: var(--l-grid-gap-1-5);
 }
 
 .l-grid-gap-2 {
-  gap: 2rem;
+  gap: var(--l-grid-gap-2);
 }
 
 .l-grid-gap-3 {
-  gap: 3rem;
+  gap: var(--l-grid-gap-3);
 }
-
-
-
-
-
-
-
-
 
 
 
