@@ -1039,7 +1039,8 @@ ol {
 
 
 
-.Services__heading{
+.Services__heading,
+.Gift__heading{
   font-size: 4rem;
   line-height: 4rem;
   text-align: center;
@@ -1064,13 +1065,21 @@ ol {
   border-radius: 10px;
   box-shadow: 2px 5px 20px #abaaaa;
   font-size: 3rem;
+  margin: 0 4rem 0 4rem;
 
 
 }
 
-.fa-solid {
+.fa-solid,
+.fa-regular {
  font-size: 4rem;
 }
+
+.Gift__heading{
+  margin-bottom: 8rem;
+}
+
+
 
 }
 
