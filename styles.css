@@ -6,7 +6,7 @@
   --clr-primary-heading: #ad5c1c;
 
   /* Secondary colors*/
-  --clr-secondary-bg: #f0e9e5;
+  --clr-secondary-bg: #ffe3d2;
   --clr-secondary-text: #6a6a6a;
   --clr-secondary-heading: #142115;
 
@@ -869,33 +869,45 @@ ol {
 
   .nav__list li a {
     display: inline-block;
-    padding: 0.5rem;
+    /* padding: 0.5rem; */
     text-decoration: none;
-    color: var(--clr-secondary-heading); 
-    font-size: 1.2rem;
+    /* color: var(--clr-secondary-heading);  */
+    /* font-size: 1.2rem; */
 
   }
 
-  .header__desktop-menu-nav
+  /* .header__desktop-menu-nav
   .nav__list{
     display: flex;
   justify-content: space-between;
   align-items: center;
+  } */
+
+
+  .hero,
+  .features__container,
+  .Services__container,
+  .Gift__container,
+  .Blog__container,
+  .About__container,
+  .Contact__container{
+    position: relative;
   }
 
+
   .main__btn{
-    bottom: 135px;
+    bottom: -0rem;
     position: absolute;
-    right: 40.2rem;
+    right: 40rem;
   }
 
   .main-link {
-    padding: 1.2rem 2.5rem;
+    /* padding: 1.5rem 2rem; */
     background-color: var( --clr-accent-one);
     color: #fff;
     text-decoration: none;
     border-radius: 30px;
-    font-size: 1.2rem;
+    /* font-size: 1.25rem; */
   }
   
 
@@ -907,7 +919,7 @@ ol {
 
 /* Height of carousel */
 #slide-container {
-  height: 500px;
+  height: 700px;
   overflow: hidden;
   position: relative;
 }
@@ -976,16 +988,16 @@ ol {
 /* Features Section Styles */
 
 .features__container{
-  display: flex;
-  justify-content: space-between;
+  /* display: flex;
+  justify-content: space-between; */
   flex-wrap: wrap;
-  margin: 50px 0px 50px 0px;
+  /* margin: 50px 0px 50px 0px; */
   text-align: center;
 }
 
 .feature__box {
   width: calc(20% - 20px);
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   padding: 0.3rem;
   position: relative;
 }
@@ -1008,6 +1020,7 @@ ol {
   
 }
 
+
 /* style link  */
 .product-link {
   display: inline-block;
@@ -1024,24 +1037,39 @@ ol {
 
 /* Service section styles  */
 
-.Services__container{
-  background-color: var(--clr-secondary-bg);
-  border-top: 1px solid #919191 ;
-}
+
 
 .Services__heading{
   font-size: 4rem;
+  line-height: 4rem;
   text-align: center;
   
   
 }
 
 .Services__container-flex{
-  display: flex;
-  justify-content: space-between;
+  /* display: flex; */
+  /* justify-content: space-between; */
   flex-wrap: wrap;
   text-align: center;
   height: 300px;
+
+}
+
+
+.Services__container-flex-box{
+  background-color: var( --clr-secondary-heading);
+  color: #fbebda;
+  padding: 4rem;
+  border-radius: 10px;
+  box-shadow: 2px 5px 20px #abaaaa;
+  font-size: 3rem;
+
+
+}
+
+.fa-solid {
+ font-size: 4rem;
 }
 
 }
