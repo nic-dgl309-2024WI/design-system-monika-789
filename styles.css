@@ -8,7 +8,7 @@
   /* Secondary colors*/
   --clr-secondary-bg: #ffe3d2;
   --clr-secondary-text: #6a6a6a;
-  --clr-secondary-heading: #142115;
+ --clr-secondary-heading : #142115;
 
   /* Accent colors  */
  
@@ -1090,8 +1090,9 @@ ol {
  /* Blog Section   */
 
 .image__blog img{
-  width: 100%;
+  width: 80%;
   height: 550px;
+  margin-left: 9rem;
 }
 
 
@@ -1106,6 +1107,161 @@ ol {
   margin-left: 16rem;
 
 }
+
+
+/* Contac us Section  */
+
+
+form {
+  width: 50%;
+  padding: 4rem;
+  background-color: white;
+  box-shadow: 0px 8px 18px #888787;
+  margin: auto;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+form button {
+  background-color: var(--clr-accent-two);
+  color: #393838;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+form button:hover {
+  background-color: var(--clr-accent-one);
+  border: solid 2px var(--clr-secondary-heading);
+  color: #ffffff;
+}
+
+form h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: normal;
+}
+
+
+/* Testimonials Section   */
+
+
+.testimonials {
+  /* background-color: #f8f8f8; */
+  padding: 1.5rem 0 1.5rem 0;
+ 
+  margin-top: 1rem;
+}
+
+.testimonial-box-main {
+  display: flex;
+  gap: 2rem;
+  flex: 3;
+  padding: 2rem;
+}
+
+.testimonial-box {
+  background-color: var(--clr-secondary-heading);
+  color: #f9ead6;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  width: 33%;
+font-size: 1.2rem;
+  padding: 1rem;
+}
+
+
+.testimonial-box p {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.testimonial-box img {
+  width: 100%;
+}
+
+.name,
+.date {
+  font-size: 0.8em;
+  margin-bottom: 5px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.testimonial-link{
+ margin-left: 39rem;
+}
+
+.testimonial-link:hover{
+  color: var(--clr-accent-two);
+  background-color: #2a29295c;
+  border-radius: 6px;
+  padding: 0.2rem;
+
+}
+
+
+/* Footer Section  */
+
+/* .footer__container{
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0 1rem 0;
+  display: flex;
+} */
+
+.footer-box {
+  flex: 1;
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+.footer-box h3 {
+  font-size: 2rem;
+ 
+}
+
+
+.footer-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-box li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-box a {
+  text-decoration: none;
+  color: var(--clr-secondary-heading);
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.footer-box a:hover {
+  color: var(--clr-accent-one);
+}
+
+.footer-box i {
+  margin: 0.5rem;
+}
+
+
+
 
 }
 
