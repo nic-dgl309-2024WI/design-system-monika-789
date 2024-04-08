@@ -9,49 +9,50 @@
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
-</head>
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+      
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+      <style>
+        :root {
+          --transparent-grey: rgba(0, 0, 0, 0.5);
+        }
+      </style>
+
+    </head>
 
 <body>
     <header>
-    <div class="header">
+    <div class="container top-bar">
         <div class="menu-btn">
             <i class="fa-solid fa-bars"></i>
           </div>
-        <!-- top navigation for desktop -->
-        <nav class="header__desktop-menu-nav l-flex l-flex-row  l-justify-between l-align-center">
-            <div class="header__desktop-menu-logo">
-                <a href="index.html"> <img src="images/outback-nursery-logo.png" alt="logo" class="logo-img"/></a>
+        <!-- top navigation -->
+        <nav class="navbar l-flex l-flex-row  l-justify-between l-align-center">
+            <div class="logo">
+                <a href="index.html">  <img src="img/logo.png" alt="logo" class="logo-img"/></a>
             </div>
             
-              <ul  class="nav__list l-flex l-flex-row  l-justify-between l-align-center">
-                <li class="nav__list-item"><a href="coming soon.html " class="l-p-1 u-heading-m-s u-heading-secondary-color">Products</a></li>
-                <li class="nav__list-item"><a href="coming soon.html" class="l-p-1 u-heading-m-s u-heading-secondary-color">Services</a></li>
-                <li class="nav__list-item"><a href="coming soon.html" class="l-p-1 u-heading-m-s u-heading-secondary-color">Gift & Certificates</a></li>
-                <li class="nav__list-item"><a href="coming soon.html" class="l-p-1 u-heading-m-s u-heading-secondary-color">Blog</a></li>
-                <li class="nav__list-item"><a href="coming soon.html" class="l-p-1 u-heading-m-s u-heading-secondary-color">About Us</a></li>
-                <li class="nav__list-item"><a href="coming soon.html" class="l-p-1 u-heading-m-s u-heading-secondary-color">Contact Us</a></li>
+              <ul  class="main-menu l-flex l-flex-row  l-justify-between l-align-center">
+                <li><a href="coming soon.html " class="l-p-1 u-heading-m-s u-heading-secondary-color">Products</a></li>
+                <li><a href="coming soon.html" class="l-p-1 u-heading-m-s u-heading-secondary-color">Services</a></li>
+                <li><a href="coming soon.html" class="l-p-1 u-heading-m-s u-heading-secondary-color">Gift & Certificates</a></li>
+                <li><a href="coming soon.html" class="l-p-1 u-heading-m-s u-heading-secondary-color">Blog</a></li>
+                <li><a href="coming soon.html" class="l-p-1 u-heading-m-s u-heading-secondary-color">About Us</a></li>
+                <li><a href="coming soon.html" class="l-p-1 u-heading-m-s u-heading-secondary-color">Contact Us</a></li>
                
               </ul>
-              <div class="icons">
-                <i class="fa-brands fa-square-facebook" style="color: #1c1b1b;" ></i>
+            </nav>
+              <div class="search-main container">
+              <div>
+                <h1><i class="fa-brands fa-square-facebook" style="color: #1c1b1b;" ></i></h1>
               </div>
-           
-        </nav>
-        <!-- top navigation for mobile -->
-        <nav class="header__mobile-menu-nav" id="nav-links">
-          <ul class="nav__list">
-            <li class="nav__list-item"><a href="coming soon.html"  class="l-p-1 u-heading-m-s u-heading-secondary-color">Products</a></li>
-            <li class="nav__list-item"><a href="coming soon.html" class="l-p-1 u-heading-m-s u-heading-secondary-color">Services</a></li>
-            <li class="nav__list-item"><a href="coming soon.html" class="l-p-1 u-heading-m-s u-heading-secondary-color">Gift & Certificates</a></li>
-            <li class="nav__list-item"><a href="coming soon.html" class="l-p-1 u-heading-m-s u-heading-secondary-color">Blog</a></li>
-            <li class="nav__list-item"><a href="coming soon.html" class="l-p-1 u-heading-m-s u-heading-secondary-color">About Us</a></li>
-            <li class="nav__list-item"><a href="coming soon.html" class="l-p-1 u-heading-m-s u-heading-secondary-color">Contact Us</a></li>  
-        </ul>
-
-        <div class="icons">
-          <i class="fa-brands fa-square-facebook" style="color: #1c1b1b;"></i>
-        </div>
-      </nav> 
+            </div>
     </div>
 </header>
 
@@ -59,6 +60,9 @@
 <main> 
     <!-- Hero Section -->
     <div class="hero">
+      <div class="portfolio_btn">
+        <a href="coming-soon.html" class="portfolio-link">View Portfolio</a>
+      </div>
       <div id="window">
         <div id="slide-container">
             
@@ -68,21 +72,21 @@
           </div>
           
       <!-- Second image --> 
-          <!-- <div class="slides">
+          <div class="slides">
             <img class="slide" src="images/trees/2.jpg" alt="Pampas Grass"> 
-          </div> -->
+          </div>
           
        <!-- Third image --> 
-          <!-- <div class="slides">
+          <div class="slides">
             <img class="slide" src="images/trees/3.jpg" alt="hedgerow of Thuja 'Forever Goldy'"> 
-          </div> -->
+          </div>
           <a id="previous" class="arrow">&#10094</a>
           <a id="next" class="arrow">&#10095</a>
+          <div id="text-bar">
+            <p id="place"></p>
+          </div>
         </div>
         <div id="dotsContainer"></div>
-      </div>
-      <div class="main__btn l-flex l-mb-2 ">
-        <a href="index.html" class="main-link l-px-1 l-py-1 u-heading-s-s u-heading-accent-button-color">Blossom with Us</a>
       </div>
     </div>
 
@@ -90,32 +94,32 @@
 <!-- Features Section -->
 <div class="features__container l-flex l-mt-2 l-mb-2 l-justify-between l-p-1-5">
     <div class="feature__box">
-      <img src="images/products/Fruit Trees.jpg" alt="Fruit Trees" />
+      <img src="img/products/p1.jpg" alt="Fruit Trees" />
       <a href="#" class="product-link">Fruit <br>Trees</a>
     </div>
 
     <div class="feature__box">
-      <img src="images/products/Shrubs.jpg" alt="Shrubs" />
+      <img src="img/products/p2.jpg" alt="Shrubs" />
       <a href="#" class="product-link">Shrubs</a>
     </div>
 
     <div class="feature__box">
-      <img src="images/products/japenees maples.jpg" alt="Japenees Maples" />
+      <img src="img/products/p3.jpg" alt="Japenees Maples" />
       <a href="#" class="product-link">Japenees <br> Maples</a>
     </div>
 
     <div class="feature__box">
-      <img src="images/products/Hedging.jpg" alt=" Hedging" />
+      <img src="img/products/p4.jpg" alt=" Hedging" />
       <a href="#" class="product-link"> Hedging</a>
     </div>
 
     <div class="feature__box">
-      <img src="images/products/Ornamental Trees.jpg" alt="Ornamental Trees" />
+      <img src="img/products/p5.jpg" alt="Ornamental Trees" />
       <a href="#" class="product-link">Ornamental <br>Trees</a>
     </div>
 
     <div class="main__btn l-mb-1">
-        <a href="index.html" class="main-link l-px-1 l-py-1 u-heading-s-s u-heading-accent-button-color">Bloom Catalouge</a>
+        <a href="coming-soon.html" class="main-link l-px-1 l-py-1 u-heading-s-s u-heading-accent-button-color">Bloom Catalouge</a>
       </div>
 
   </div>
@@ -149,7 +153,7 @@
        </div>
         </div>
     <div class="main__btn l-mb-2">
-        <a href="index.html" class="main-link l-px-1 l-py-1 u-heading-s-s u-heading-accent-button-color">Bring Nature Home</a>
+        <a href="coming-soon.html" class="main-link l-px-1 l-py-1 u-heading-s-s u-heading-accent-button-color">Bring Nature Home</a>
       </div>
     </div>
   </section>
@@ -158,12 +162,13 @@
   <!-- Gift & Certificates Section  -->
 
   <section class="Gift__container l-p-1-5 l-m-1-5">
+    <div class="Gift__container-box">
     <h2 class="Gift__heading u-heading-l-s u-heading-line-height-2 u-heading-accent-button-color">We Have Gift Certificates <br> Available <br> in 3 Steps</h2>
 
       <div class="main__btn">
-        <a href="index.html" class="main-link l-px-1 l-py-1 u-heading-s-s u-heading-accent-button-color">Gift the Green Certificates</a>
+        <a href="coming-soon.html" class="main-link l-px-1 l-py-1 u-heading-s-s u-heading-accent-button-color">Gift the Green Certificates</a>
       </div>
-   
+    </div>
   </section>
 
   <!-- Blog Section  -->
@@ -172,13 +177,13 @@
     <h2 class="Blog__heading u-heading-l-s u-heading-line-height-2 u-heading-accent-button-color">Blogs</h2>
 
     <div class="image__blog l-p-1-5">
-      <img src="images/blog/blog-1.jpg" alt="Annette's Favourites" >
+      <img src="img/blog/blog-4.jpg" alt="Annette's Favourites" class="image__blog-box">
     </div>
 
 
 
     <div class="main__btn">
-      <a href="index.html" class="main-link l-px-1 l-py-1 u-heading-s-s u-heading-accent-button-color">Annette's Favourites</a>
+      <a href="coming-soon.html" class="main-link l-px-1 l-py-1 u-heading-s-s u-heading-accent-button-color">Annette's Favourites</a>
     </div>
 
   </section>
@@ -205,7 +210,7 @@
   </div>
 
   <div class="main__btn">
-    <a href="index.html" class="main-link l-px-1 l-py-1 u-heading-s-s u-heading-accent-button-color">Our Green Story</a>
+    <a href="coming-soon.html" class="main-link l-px-1 l-py-1 u-heading-s-s u-heading-accent-button-color">Our Green Story</a>
   </div>
 
 </section>
@@ -245,14 +250,14 @@
   </div>
 
   <div class="main__btn">
-    <a href="index.html" class="main-link l-px-1 l-py-1 u-heading-s-s u-heading-accent-button-color">Step into the Green Heaven</a>
+    <a href="coming-soon.html" class="main-link l-px-1 l-py-1 u-heading-s-s u-heading-accent-button-color">Step into the Green Heaven</a>
   </div>
 
 </section>
 
 <!-- Testimonials Section -->
 
-<section class="testimonials container l-p-1-5 l-m-1-5 l-mt-2">
+<section class="testimonials-container l-p-1-5 l-m-1-5 l-mt-2">
       <h2 class="testimonial__heading u-heading-l-s u-heading-line-height-2 u-heading-accent-button-color">Real Reviews from Real Customers</h2>
    
   <div class="testimonial-box-main">
@@ -290,14 +295,14 @@
   </div>
 
   <div>
-    <a href="index.html" class="testimonial-link u-heading-secondary-color u-heading-m-s">Customers Reviews</a>
+    <a href="coming-soon.html" class="testimonial-link u-heading-secondary-color u-heading-m-s">Customers Reviews</a>
   </div>
 </section>
 </main>
   
 <!-- Footer Section -->
 
-
+<footer>
 <section class="footer__container l-flex u-bg-secondary-color l-p-2">
   <div class="footer-box">
     <h3 class="main__heading l-mt-2 u-heading-font-weight-b">
@@ -321,12 +326,76 @@
     
     <i class="fa-brands fa-instagram"></i>
 
-    <h4>&copy; 2024 Outback Nursery All Right Reserved.</h4>
+    <h5>&copy; 2024 Outback Nursery All Right Reserved.</h5>
   </div>
 
 </section>
+</footer>
 
 
+<!-- javascript link  -->
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+      <script>
+        document.querySelector(".menu-btn").addEventListener("click", abc);
+        function abc() {
+          document.querySelector(".nav__list").classList.toggle("show");
+        }
+        var index = 0; 
+
+var locations = ["Hellebores - Pippa's Purple", "Pampas Grass", "Hedgings"]
+
+var slides = document.getElementsByClassName("slides"); 
+var nextArrow = document.getElementById("next");
+
+var previousArrow = document.getElementById("previous");
+
+var place = document.getElementById("place");
+
+var dotsContainer = document.getElementById("dotsContainer");
+
+var dotArray = document.getElementsByClassName("dots"); 
+
+createDots(); 
+showSlides(index); 
+
+function createDots() {
+	for (i=0; i<slides.length; i++) {
+	var dot = document.createElement("span");
+	dot.className = "dots"; 
+	dotsContainer.appendChild(dot); 
+	}
+}
+
+function showSlides(x) {
+	if (x > slides.length-1) {
+		index = 0; 
+	}
+	if (x < 0) {
+		index = slides.length-1; 
+	}
+	for (i=0; i < slides.length; i++) {
+		slides[i].style.display = "none"; 
+		dotArray[i].className = "dots";  
+	}
+	
+	slides[index].style.display = "block";
+	dotArray[index].className += " activeDot"; 
+	place.innerHTML = locations[index]; 
+}
+
+nextArrow.onclick = function() {
+	index += 1; 
+	showSlides(index); 
+} 
+
+previousArrow.onclick = function() {
+	index -= 1; 
+	showSlides(index); 
+} 
+
+dotArray[0].onclick = showSlides(1); 
+      </script>
 
 
 </body>
