@@ -40,7 +40,7 @@ nav a:hover
 }
 
 .link--active {
-  color: var(--clr-secondary-text);
+  color: var(--clr-hover-active);
 }
 
 
@@ -52,7 +52,10 @@ nav a:hover
 /* style the swatches colors */
 
 .c-container-colors,
-.c-typography-font-family-style{
+.c-typography-font-family-style,
+.c-spacing-margin-content,
+.c-flex-container__item,
+.c-grid-container__item{
       display: flex;
       flex-wrap: wrap;      
 }
@@ -93,6 +96,25 @@ nav a:hover
 .c-color-combinations__table td{
   padding-left: 20px;
 }
+
+.c-spacing-column,
+.c-spacing-grid{
+  width:250px;
+  height: 100px;
+  border: 1px solid #766262;
+  margin: 2px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+align-items: center;
+}
+
+.c-spacing-grid{
+  width:300px !important;
+}
+
+
 
 
 @media screen and (min-width: 1200px) {

@@ -811,6 +811,32 @@ ol {
   padding: 0;
 }
 
+ /* design-system style sticky header  */
+
+
+ .sticky-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: var(--clr-secondary-bg);
+  z-index:999;
+}	
+
+
+  /* To set side bar sticky */
+.sticky-sidebar {
+    position: sticky;
+    top: 50px;
+    height: auto;
+    min-width: 210px;
+    max-width: 210px;
+    box-shadow: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    order: 1;
+  }
+
 
 
 /* Outback nursery layout */

@@ -12,7 +12,7 @@
 </head>
 
 <body class="u-body-font u-body-line-height u-letter-spacing-normal">
-  <header>
+  <header class="c-navbar sticky-header">
     <!-- Menu Bar -->
     <nav class="c-mobile-nav-top u-mobile-navbar">
       <!-- Menu Button -->
@@ -35,14 +35,14 @@
   <!-- Side navbar -->
   <aside>
     <nav id="main-nav" class="c-nav-side-navbar">
-      <ul class="c-nav__list">
+      <ul class="c-nav__list sticky-sidebar">
         <li>
           <a href="#" class="c-nav__link">
             Branding
           </a>
         </li>
         <ul class="c-nav__list">
-          <li class="c-list__item"><a href="colours.html" class="c-nav__link link--active">01 Colours</a></li>
+          <li class="c-list__item"><a href="colours.html" class="c-nav__link">01 Colours</a></li>
           <li><a href="typography.html" class="c-nav__link">02 Typography</a></li>
           <li><a href="#" class="c-nav__link">03 Logo</a></li>
         </ul>
@@ -53,7 +53,7 @@
           </a>
         </li>
         <ul class="c-nav__list">
-          <li><a href="#" class="c-nav__link">04 Spacing</a></li>
+          <li><a href="spacing.html" class="c-nav__link">04 Spacing</a></li>
           <li><a href="containers.html" class="c-nav__link link--active">05 Containers</a></li>
           <li><a href="#" class="c-nav__link">06 Images</a></li>
           <li><a href="#" class="c-nav__link">07 Interactive</a></li>
@@ -101,191 +101,338 @@
   <main class="c-containers">
     <section class="c-containers-main">
 
-      <h1 class="u-heading-font u-heading-bold u-heading-line-height u-letter-spacing">
+      <h1
+        class="c-spacing-heading u-heading-font u-heading-l-s u-heading-font-weight-b u-heading-letter-spacing-1 l-flex l-justify-center">
         Containers
       </h1>
 
-      <div>
-        <section class="mobile-container desktop-container l-mx-auto l-px-1">
-          <h2 class="u-heading-font u-heading-bold u-heading-line-height u-letter-spacing">
-            Flex
-          </h2>
 
-          <!-- create flex classes -->
-          <div class="c-flex-container">
-            <p class="c-containers-flex-headings">Class Name</p>
-            <p class="c-containers-flex-headings">Style Property</p>
-            <p class="c-containers-flex-headings">Value</p>
+      <section class="mobile-container desktop-container l-mx-auto l-px-1">
+        <h2
+          class="c-spacing-heading u-heading-font u-heading-m-s u-heading-font-weight-b u-heading-letter-spacing-1 l-flex l-justify-center">
+          Flex
+        </h2>
 
-            <div class="c-flex-container__item">
-              <p class="c-containers-flex-names">.l-flex</p>
-              <p class="c-containers-flex-props">display</p>
-              <p class="c-containers-flex-values">flex</p>
-            </div>
-
-            <div class="c-flex-container__item">
-              <p class="c-containers-flex-names">.l-flex-row</p>
-              <p class="c-containers-flex-props">flex-direction</p>
-              <p class="c-containers-flex-values">row</p>
-            </div>
-
-            <div class="c-flex-container__item">
-              <p class="c-containers-flex-names">.l-flex-column</p>
-              <p class="c-containers-flex-props">flex-direction</p>
-              <p class="c-containers-flex-values">column</p>
-            </div>
-
-            <!-- /* Justify content */ -->
-
-            <div class="c-flex-container__item">
-              <p class="c-containers-flex-names">.l-justify-center</p>
-              <p class="c-containers-flex-props">justify-content</p>
-              <p class="c-containers-flex-values">center</p>
-            </div>
-
-            <div class="c-flex-container__item">
-              <p class="c-containers-flex-names">.l-justify-between</p>
-              <p class="c-containers-flex-props">justify-content</p>
-              <p class="c-containers-flex-values">space-between</p>
-            </div>
-
-            <div class="c-flex-container__item">
-              <p class="c-containers-flex-names">.l-justify-start</p>
-              <p class="c-containers-flex-props">justify-content</p>
-              <p class="c-containers-flex-values">flex-start</p>
-            </div>
-
-            <div class="c-flex-container__item">
-              <p class="c-containers-flex-names">.l-justify-end</p>
-              <p class="c-containers-flex-props">justify-content</p>
-              <p class="c-containers-flex-values">flex-end</p>
-            </div>
-
-            <div class="c-flex-container__item">
-              <p class="c-containers-flex-names">.l-justify-around</p>
-              <p class="c-containers-flex-props">justify-content</p>
-              <p class="c-containers-flex-values">space-around</p>
-            </div>
-
-            <!-- /* Align items */ -->
-
-            <div class="c-flex-container__item">
-              <p class="c-containers-flex-names">.l-align-center</p>
-              <p class="c-containers-flex-props"> align-items</p>
-              <p class="c-containers-flex-values">center</p>
-            </div>
-
-            <div class="c-flex-container__item">
-              <p class="c-containers-flex-names">.l-align-start</p>
-              <p class="c-containers-flex-props"> align-items</p>
-              <p class="c-containers-flex-values">flex-start</p>
-            </div>
-
-            <div class="c-flex-container__item">
-              <p class="c-containers-flex-names">.l-align-end</p>
-              <p class="c-containers-flex-props"> align-items</p>
-              <p class="c-containers-flex-values">flex-end</p>
-            </div>
-
-            <div class="c-flex-container__item">
-              <p class="c-containers-flex-names">.l-align-stretch</p>
-              <p class="c-containers-flex-props"> align-items</p>
-              <p class="c-containers-flex-values">stretch</p>
-            </div>
-
-            <div class="c-flex-container__item">
-              <p class="c-containers-flex-names">.l-align-baseline</p>
-              <p class="c-containers-flex-props"> align-items</p>
-              <p class="c-containers-flex-values">baseline</p>
-            </div>
+        <!-- create flex classes -->
+        <div class="c-flex-container l-flex">
+          <div class="c-spacing-grid">
+            <p class="c-containers-flex-headings l-ml-2">Class Name</p>
           </div>
-        </section>
-
-        <!-- Grid section -->
-        <section class="mobile-container desktop-container l-mx-auto l-px-1">
-          <h2 class="u-heading-font u-heading-bold u-heading-line-height u-letter-spacing">
-            Grid
-          </h2>
-
-          <!-- create grid classes -->
-          <div class="c-grid-container">
-            <p class="c-containers-grid-headings">Class Name</p>
-            <p class="c-containers-grid-headings">Style Property</p>
-            <p class="c-containers-grid-headings">Value</p>
-
-            <!-- flex layout -->
-            <div class="c-grid-container__item">
-              <p class="c-containers-grid-names">.l-grid</p>
-              <p class="c-containers-grid-props">display</p>
-              <p class="c-containers-grid-values">grid</p>
-            </div>
-
-            <!-- grid columns  -->
-            <div class="c-grid-container__item">
-              <p class="c-containers-grid-names">.l-grid-columns-2</p>
-              <p class="c-containers-grid-props">grid-template-columns</p>
-              <p class="c-containers-grid-values">repeat(2, 1fr)</p>
-            </div>
-
-            <div class="c-grid-container__item">
-              <p class="c-containers-grid-names">.l-grid-columns-3</p>
-              <p class="c-containers-grid-props">grid-template-columns</p>
-              <p class="c-containers-grid-values">repeat(3, 1fr)</p>
-            </div>
-
-            <div class="c-grid-container__item">
-              <p class="c-containers-grid-names">.l-grid-columns-4</p>
-              <p class="c-containers-grid-props">grid-template-columns</p>
-              <p class="c-containers-grid-values">repeat(4, 1fr)</p>
-            </div>
-
-            <!-- /*grid rows */ -->
-
-            <div class="c-grid-container__item">
-              <p class="c-containers-grid-names">.l-grid-rows-2</p>
-              <p class="c-containers-grid-props">grid-template-rows</p>
-              <p class="c-containers-grid-values">repeat(2, 1fr)</p>
-            </div>
-
-            <div class="c-grid-container__item">
-              <p class="c-containers-grid-names">.l-grid-rows-3</p>
-              <p class="c-containers-grid-props">grid-template-rows</p>
-              <p class="c-containers-grid-values">repeat(3, 1fr)</p>
-            </div>
-
-            <div class="c-grid-container__item">
-              <p class="c-containers-grid-names">.l-grid-rows-4</p>
-              <p class="c-containers-grid-props">grid-template-rows</p>
-              <p class="c-containers-grid-values">repeat(4, 1fr)</p>
-            </div>
-
-            <!-- grid gap -->
-
-            <div class="c-grid-container__item">
-              <p class="c-containers-grid-names">.l-grid-gap-1</p>
-              <p class="c-containers-grid-props">gap</p>
-              <p class="c-containers-grid-values">1rem</p>
-            </div>
-
-            <div class="c-grid-container__item">
-              <p class="c-containers-grid-names">.l-grid-gap-1-5</p>
-              <p class="c-containers-grid-props">gap</p>
-              <p class="c-containers-grid-values">1.5rem</p>
-            </div>
-
-            <div class="c-grid-container__item">
-              <p class="c-containers-grid-names">.l-grid-gap-2</p>
-              <p class="c-containers-grid-props">gap</p>
-              <p class="c-containers-grid-values">2rem</p>
-            </div>
-
-            <div class="c-grid-container__item">
-              <p class="c-containers-grid-names">.l-grid-gap-3</p>
-              <p class="c-containers-grid-props">gap</p>
-              <p class="c-containers-grid-values">3rem</p>
-            </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-flex-headings l-ml-2">Style Property</p>
           </div>
-        </section>
+          <div class="c-spacing-grid">
+            <p class="c-containers-flex-headings l-ml-2">Value</p>
+          </div>
+
+        </div>
+
+
+        <!-- create flex values  -->
+
+        <div class="c-flex-container__item">
+          <div class="c-spacing-grid">
+            <p class="c-containers-flex-names l-ml-2">.l-flex</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-flex-props l-ml-2">display</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-flex-values l-ml-2">flex</p>
+          </div>
+     
+      
+          <div class="c-spacing-grid">
+            <p class="c-containers-flex-names l-ml-2">.l-flex-row</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-flex-props l-ml-2">flex-direction</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-flex-values l-ml-2">row</p>
+          </div>
+    
+
+        
+          <div class="c-spacing-grid">
+            <p class="c-containers-flex-names l-ml-2">.l-flex-column</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-flex-props l-ml-2">flex-direction</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-flex-values l-ml-2">column</p>
+          </div>
+        </div>
+
+        <!-- /* Justify content */ -->
+
+        <div class="c-flex-container__item">
+          <div class="c-spacing-grid">
+            <p class="c-containers-flex-names l-ml-2">.l-justify-center</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-flex-props l-ml-2">justify-content</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-flex-values l-ml-2">center</p>
+          </div>
+      
+
+     
+          <div class="c-spacing-grid">
+            <p class="c-containers-flex-names l-ml-2">.l-justify-between</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-flex-props l-ml-2">justify-content</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-flex-values l-ml-2">space-between</p>
+          </div>
+    
+
+      
+          <div class="c-spacing-grid">
+            <p class="c-containers-flex-names l-ml-2">.l-justify-start</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-flex-props l-ml-2">justify-content</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-flex-values l-ml-2">flex-start</p>
+          </div>
+     
+
+     
+          <div class="c-spacing-grid">
+            <p class="c-containers-flex-names l-ml-2">.l-justify-end</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-flex-props l-ml-2">justify-content</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-flex-values l-ml-2">flex-end</p>
+          </div>
+       
+
+        
+          <div class="c-spacing-grid">
+            <p class="c-containers-flex-names l-ml-2">.l-justify-around</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-flex-props l-ml-2">justify-content</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-flex-values l-ml-2">space-around</p>
+          </div>
+        </div>
+
+        <!-- /* Align items */ -->
+
+        <div class="c-flex-container__item">
+          <div class="c-spacing-grid">
+            <p class="c-containers-flex-names l-ml-2">.l-align-center</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-flex-props l-ml-2"> align-items</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-flex-values l-ml-2">center</p>
+          </div>
+       
+
+       
+          <div class="c-spacing-grid">
+            <p class="c-containers-flex-names l-ml-2">.l-align-start</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-flex-props l-ml-2"> align-items</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-flex-values l-ml-2">flex-start</p>
+          </div>
+      
+
+          <div class="c-spacing-grid">
+            <p class="c-containers-flex-names l-ml-2">.l-align-end</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-flex-props l-ml-2"> align-items</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-flex-values l-ml-2">flex-end</p>
+          </div>
+       
+
+      
+          <div class="c-spacing-grid">
+            <p class="c-containers-flex-names l-ml-2">.l-align-stretch</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-flex-props l-ml-2"> align-items</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-flex-values l-ml-2">stretch</p>
+          </div>
+       
+
+      
+          <div class="c-spacing-grid">
+            <p class="c-containers-flex-names l-ml-2">.l-align-baseline</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-flex-props l-ml-2"> align-items</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-flex-values l-ml-2">baseline</p>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- Grid section -->
+      <section class="mobile-container desktop-container l-mx-auto l-px-1">
+        <h2 class="u-heading-font u-heading-bold u-heading-line-height u-letter-spacing">
+          Grid
+        </h2>
+
+        <!-- create grid classes -->
+        <div class="c-grid-container l-flex">
+          <div class="c-spacing-grid">
+            <p class="c-containers-grid-headings l-ml-2">Class Name</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-grid-headings l-ml-2">Style Property</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-grid-headings l-ml-2">Value</p>
+          </div>
+        </div>
+
+        <!-- flex layout -->
+        <div class="c-grid-container__item">
+          <div class="c-spacing-grid">
+            <p class="c-containers-grid-names l-ml-2">.l-grid</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-grid-props l-ml-2">display</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-grid-values l-ml-2">grid</p>
+          </div>
+
+          <!-- grid columns  -->
+
+          <div class="c-spacing-grid">
+            <p class="c-containers-grid-names l-ml-2">.l-grid-columns-2</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-grid-props l-ml-2">grid-template-columns</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-grid-values l-ml-2">repeat(2, 1fr)</p>
+          </div>
+
+          <div class="c-spacing-grid">
+            <p class="c-containers-grid-names l-ml-2">.l-grid-columns-3</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-grid-props l-ml-2">grid-template-columns</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-grid-values l-ml-2">repeat(3, 1fr)</p>
+          </div>
+
+          <div class="c-spacing-grid">
+            <p class="c-containers-grid-names l-ml-2">.l-grid-columns-4</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-grid-props l-ml-2">grid-template-columns</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-grid-values l-ml-2">repeat(4, 1fr)</p>
+          </div>
+        </div>
+
+        <!-- /*grid rows */ -->
+
+        <div class="c-grid-container__item">
+          <div class="c-spacing-grid">
+            <p class="c-containers-grid-names l-ml-2">.l-grid-rows-2</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-grid-props l-ml-2">grid-template-rows</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-grid-values l-ml-2">repeat(2, 1fr)</p>
+          </div>
+
+          <div class="c-spacing-grid">
+            <p class="c-containers-grid-names l-ml-2">.l-grid-rows-3</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-grid-props l-ml-2">grid-template-rows</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-grid-values l-ml-2">repeat(3, 1fr)</p>
+          </div>
+
+          <div class="c-spacing-grid">
+            <p class="c-containers-grid-names l-ml-2">.l-grid-rows-4</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-grid-props l-ml-2">grid-template-rows</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-grid-values l-ml-2">repeat(4, 1fr)</p>
+          </div>
+        </div>
+
+        <!-- grid gap -->
+
+        <div class="c-grid-container__item">
+          <div class="c-spacing-grid">
+            <p class="c-containers-grid-names l-ml-2">.l-grid-gap-1</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-grid-props l-ml-2">gap</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-grid-values l-ml-2">1rem</p>
+          </div>
+
+          <div class="c-spacing-grid">
+            <p class="c-containers-grid-names l-ml-2">.l-grid-gap-1-5</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-grid-props l-ml-2">gap</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-grid-values l-ml-2">1.5rem</p>
+          </div>
+
+          <div class="c-spacing-grid">
+            <p class="c-containers-grid-names l-ml-2">.l-grid-gap-2</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-grid-props l-ml-2">gap</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-grid-values l-ml-2">2rem</p>
+          </div>
+
+          <div class="c-spacing-grid">
+            <p class="c-containers-grid-names l-ml-2">.l-grid-gap-3</p>
+          </div>
+          <div class="c-spacing-grid">
+            <p class="c-containers-grid-props l-ml-2">gap</p>
+          </div>
+        <div class="c-spacing-grid">
+        <p class="c-containers-grid-values l-ml-2">3rem</p>
+        </div>
+        </div>
+      </section>
+    </section>
   </main>
 
 
