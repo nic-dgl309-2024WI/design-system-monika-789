@@ -974,8 +974,8 @@ padding: 1rem 3rem 1rem 3rem;
   left:5.5rem;
 }
 
-.main__btn{
-  margin: 1.25rem 0 2rem 35.5rem;
+.main__btn-products{
+  margin: 3rem 0 2rem 37.5rem;
 
 }
 
@@ -1100,25 +1100,18 @@ form button:hover {
 
 form h3 {
   text-align: center;
-  font-size: 2.4rem;
-  font-weight: normal;
 }
 
-
+.main__btn-form{
+    margin-left:33rem;
+    margin-top: 4rem;
+}
 
 
 /* Testimonials Section Styles */
-.testimonials {
-  padding: 1.5rem 0 1.5rem 0;
-  margin-top: 1rem;
-}
-
 
 .testimonial-box-main {
-  display: flex;
-  gap: 1rem;
   flex: 3;
-  padding: 1rem;
 }
 
 .testimonial-box {
@@ -1130,7 +1123,8 @@ form h3 {
 }
 
 .testimonial-link{
-  margin: 0 0 3rem 39rem;
+  margin-left: 37rem;
+  margin-top: 4rem;
  }
  
  .testimonial-link:hover{
@@ -1454,43 +1448,49 @@ form h3 {
   
   
   .features {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
   .feature-box {
     width: 100%;
   }
-  
-  .testimonials,
-  .testimonial-box-main {
-    flex-direction: column;
+
+
+  .feature-box img {
+   border-radius: 8px;
+   width: 90%;
   }
-  
-  .testimonial-box-main div {
-    width: 80%;
+
+  .feature-box:hover {
+    transform: scale(0.9);
   }
+ 
   
    /*text link style  */
   
   .learn-more-link {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #0505057a;
-    color: #fff200;
-    text-decoration: none;
-    font-size: 1.75rem;
-    font-weight: bold;
-    border-radius: 15px;
+    font-size: 2rem;
     position: absolute;
-    top: 15rem;
-    left:6.5rem;
+    top: 12rem;
+    left:9rem;
+    line-height: 2rem;
   }
   
+  .main__btn-products{
+    margin: 3rem 0 2rem 1rem;
+  
+  }
+
+
+
   /* Services Section  */
   
   
   .Services__container-flex-box{
-    width: 50%;
+    width: 80%;
   }
   
   .main-link
@@ -1511,14 +1511,31 @@ form h3 {
     margin: 1rem 2rem 1rem 1.25rem;
   
   }
+
+
+  .Services__container-flex{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
   
+  
+
+  /* Gift & Certificates Section  */
+
+
+  .main__btn-gift{
+    margin-left:1rem;
+    margin-top: 4rem;
+  }
+
+
   
   /* Blog Section  */
   
   .image__blog-box{
     width: 100%;
-  
-    margin: 0 2rem 2rem 1rem;
+    margin: 0 0 2rem 0;
   
   }
   
@@ -1526,9 +1543,9 @@ form h3 {
     /* About us Section   */
   
     .about__paragraph-p{
-      display: none;
-      
-     }
+      width: 100%;
+      text-align: center;
+    }
   
      
    /* Contac us Section   */
@@ -1556,6 +1573,11 @@ form h3 {
     width: 80%;
   }
   
+  .main__btn-form{
+    margin-left:1rem;
+    margin-top: 4rem;
+  }
+
   
     /* Testimonials Section  */
   
@@ -1571,6 +1593,15 @@ form h3 {
     margin: 0 2rem 3rem 6rem;
    }
    
+   .testimonials,
+   .testimonial-box-main {
+     flex-direction: column;
+   }
+   
+   .testimonial-box-main div {
+     width: 80%;
+   }
+
   
    /* Footer Styles */
   
@@ -1579,13 +1610,21 @@ form h3 {
     flex-direction:column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+   
+  }
+
+  .footer-box{
     margin-left: 1rem;
   }
-  
-  .footer-box i{
-    margin-left: 5rem ;
+
+  .footer-box h3 {
+    font-size: 3rem;
+   line-height: 2rem;
+   text-align: center;
+   margin-left: 1rem;
   }
-  
+
   }
   
 
