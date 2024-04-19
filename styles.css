@@ -832,14 +832,14 @@ ol {
   /* To set side bar sticky */
 .sticky-sidebar {
     position: sticky;
-    top: 50px;
+  
     height: auto;
-    min-width: 210px;
-    max-width: 210px;
+    min-width: 150px;
+    max-width: 150px;
     box-shadow: none;
     border: none;
-    margin: 0;
-    padding: 0;
+    margin-top: 4rem;
+    padding-left: 1rem;
     order: 1;
   }
 
@@ -1122,20 +1122,6 @@ form h3 {
   width: 33%;
 }
 
-.testimonial-link{
-  margin-left: 37rem;
-  margin-top: 4rem;
- }
- 
- .testimonial-link:hover{
-   color: #ffea00;
-   background-color: #2a29295c;
-   border-radius: 6px;
-   padding: 0.2rem;
- 
- }
-
-
 
 /* Footer Styles */
 
@@ -1246,6 +1232,17 @@ form h3 {
 
   .activeDot {
     background-color: rgba(0, 0, 0, 0.6);
+  }
+
+
+
+/* coming soon style  */
+
+
+  .coming-soon-heading{
+    text-align: center;
+    margin:  5rem 0rem 15.5rem 28rem;
+    font-size: 5rem;
   }
 
 
@@ -1545,6 +1542,7 @@ form h3 {
     .about__paragraph-p{
       width: 100%;
       text-align: center;
+      margin-left: -1.5rem;
     }
   
      
@@ -1588,11 +1586,8 @@ form h3 {
       width: 100%;
       padding: 2rem;
     }
-  
-  .testimonial-link{
-    margin: 0 2rem 3rem 6rem;
-   }
-   
+
+
    .testimonials,
    .testimonial-box-main {
      flex-direction: column;

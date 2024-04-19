@@ -5,6 +5,7 @@
 nav ul {
   list-style-type: none;
   flex-direction: column;
+  background-color: var(--clr-secondary-bg);
 }
 
 /* .c-nav__link {
@@ -139,7 +140,7 @@ padding: 0.2rem;
 
 
 
- /*Footer page*/
+ /* all snippet code style */
 
 
  .code-container {
@@ -174,6 +175,7 @@ pre {
 .copy-btn:hover {
   background-color: #0056b3;
 }
+
 
 
 
