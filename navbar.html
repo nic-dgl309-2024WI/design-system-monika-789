@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Design System</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <link rel="stylesheet" type="text/css" href="design-system.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body class="u-body-font u-body-line-height u-letter-spacing-normal">
+  <header class="c-navbar sticky-header">
+    <!-- Menu Bar -->
+    <nav class="c-mobile-nav-top u-mobile-navbar">
+      <!-- Menu Button -->
+      <span id="navbar-toggle" onclick="showNav()">
+        <i class="fa fa-bars color-theme-highlighted"></i></span>
+      <!-- Website Logo -->
+      <a class="c-nav-logo__link l-ml-1" href="design-system.html">Digital design</a>
+      <!-- Menu List -->
+      <ul nav_list>
+        <li>
+          <a class="c-nav__link l-mr-1" href="about-me.html">About me</a>
+        </li>
+        <li>
+          <a class="c-nav__link l-ml-1" href="index.html">Demo site</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Side navbar -->
+  <aside>
+    <nav id="main-nav" class="c-nav-side-navbar">
+      <ul class="c-nav__list sticky-sidebar">
+        <li>
+          <a href="#" class="c-nav__link">
+            Branding
+          </a>
+        </li>
+        <ul class="c-nav__list">
+          <li class="c-list__item"><a href="colours.html" class="c-nav__link">01 Colours</a></li>
+          <li><a href="typography.html" class="c-nav__link">02 Typography</a></li>
+          <li><a href="#" class="c-nav__link">03 Logo</a></li>
+        </ul>
+
+        <li>
+          <a href="#" class="c-nav__link">
+            Utilities
+          </a>
+        </li>
+        <ul class="c-nav__list">
+          <li><a href="spacing.html" class="c-nav__link">04 Spacing</a></li>
+          <li><a href="containers.html" class="c-nav__link">05 Containers</a></li>
+          <li><a href="#" class="c-nav__link">06 Images</a></li>
+          <li><a href="#" class="c-nav__link">07 Interactive</a></li>
+          <li><a href="#" class="c-nav__link">08 Feedback</a></li>
+        </ul>
+
+        <li>
+          <a href="#" class="c-nav__link">
+            Navigation
+          </a>
+        </li>
+        <ul class="c-nav__list">
+          <li><a href="#" class="c-nav__link">09 Navbars</a></li>
+          <li><a href="#" class="c-nav__link">10 Breadcrumbs</a></li>
+          <li><a href="#" class="c-nav__link">11 Pagination</a></li>
+        </ul>
+
+        <li>
+          <a href="#" class="c-nav__link">
+            Blocks
+          </a>
+        </li>
+        <ul class="c-nav__list">
+          <li><a href="#" class="c-nav__link">12 Hero</a></li>
+          <li><a href="#" class="c-nav__link">13 Carousel</a></li>
+          <li><a href="#" class="c-nav__link">14 Slats</a></li>
+          <li><a href="footer.html" class="c-nav__link link--active">15 Footers</a></li>
+        </ul>
+
+        <li>
+          <a href="#" class="c-nav__link">
+            Components
+          </a>
+        </li>
+        <ul class="c-nav__list">
+          <li><a href="#" class="c-nav__link">16 Cards</a></li>
+          <li><a href="#" class="c-nav__link">17 Forms</a></li>
+          <li><a href="#" class="c-nav__link">18 Accordion</a></li>
+          <li><a href="#" class="c-nav__link">19 Lists </a></li>
+        </ul>
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- snippet code contents -->
+  <div class="code-container">
+    <pre id="htmlCode"><code>
+&lt;header&gt;
+&lt;div class="container top-bar l-flex l-justify-between l-align-center"&gt;
+    &lt;div class="menu-btn"&gt;
+        &lt;i class="fa-solid fa-bars"&gt;&lt;/i&gt;
+      &lt;/div&gt;
+    &lt;!-- top navigation --&gt;
+    &lt;nav class="navbar l-flex l-flex-row  l-justify-between l-align-center"&gt;
+        &lt;div class="logo"&gt;
+            &lt;a href="index.html"&gt;  &lt;img src="img/logo.png" alt="logo" class="logo-img"&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        
+          &lt;ul  class="main-menu l-flex l-flex-row  l-justify-between l-align-center"&gt;
+            &lt;li&gt;&lt;a href="coming-soon.html " class="main-menu-a l-p-1 u-heading-s-s u-heading-secondary-color u-heading-font-weight-b"&gt;Products&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="coming-soon.html" class="main-menu-a l-p-1 u-heading-s-s u-heading-secondary-color u-heading-font-weight-b"&gt;Services&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="coming-soon.html" class="main-menu-a l-p-1 u-heading-s-s u-heading-secondary-color u-heading-font-weight-b"&gt;Gift [&]Certificates&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="coming-soon.html" class="main-menu-a l-p-1 u-heading-s-s u-heading-secondary-color u-heading-font-weight-b"&gt;Blog&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="coming-soon.html" class="main-menu-a l-p-1 u-heading-s-s u-heading-secondary-color u-heading-font-weight-b"&gt;About Us&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="coming-soon.html" class="main-menu-a l-p-1 u-heading-s-s u-heading-secondary-color u-heading-font-weight-b"&gt;Contact Us&lt;/a&gt;&lt;/li&gt;
+           
+          &lt;/ul&gt;
+        &lt;/nav&gt;
+          &lt;div class="search-main container l-flex l-justify-center l-align-center l-pt-1"&gt;
+          &lt;div&gt;
+            &lt;h1&gt;&lt;i class="fa-brands fa-square-facebook" style="color: #1c1b1b;"&gt;&lt;/i&gt;&lt;/h1&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/header&gt;
+</code>
+    </pre>
+    <button class="copy-btn" onclick="copyToClipboard()">Copy</button>
+  </div>
+  
+  
+  <header>
+    <div class="container top-bar l-flex l-justify-between l-align-center">
+        <div class="menu-btn">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        <!-- top navigation -->
+        <nav class="navbar l-flex l-flex-row  l-justify-between l-align-center">
+            <div class="logo">
+                <a href="index.html">  <img src="img/logo.png" alt="logo" class="logo-img"></a>
+            </div>
+            
+              <ul  class="main-menu l-flex l-flex-row  l-justify-between l-align-center">
+                <li><a href="coming-soon.html " class="main-menu-a l-p-1 u-heading-s-s u-heading-secondary-color u-heading-font-weight-b">Products</a></li>
+                <li><a href="coming-soon.html" class="main-menu-a l-p-1 u-heading-s-s u-heading-secondary-color u-heading-font-weight-b">Services</a></li>
+                <li><a href="coming-soon.html" class="main-menu-a l-p-1 u-heading-s-s u-heading-secondary-color u-heading-font-weight-b">Gift [&]Certificates</a></li>
+                <li><a href="coming-soon.html" class="main-menu-a l-p-1 u-heading-s-s u-heading-secondary-color u-heading-font-weight-b">Blog</a></li>
+                <li><a href="coming-soon.html" class="main-menu-a l-p-1 u-heading-s-s u-heading-secondary-color u-heading-font-weight-b">About Us</a></li>
+                <li><a href="coming-soon.html" class="main-menu-a l-p-1 u-heading-s-s u-heading-secondary-color u-heading-font-weight-b">Contact Us</a></li>
+               
+              </ul>
+            </nav>
+              <div class="search-main container l-flex l-justify-center l-align-center l-mr-2">
+              <div>
+                <h1>.<i class="fa-brands fa-square-facebook" style="color: #1c1b1b;"></i></h1>
+              </div>
+            </div>
+    </div>
+</header>
+    
+  <script src="design-system.js"></script>
+
+
+  <!-- javascript style  -->
+
+<script>  function copyToClipboard() {
+    var range = document.createRange();
+    range.selectNode(document.getElementById("htmlCode"));
+    window.getSelection().removeAllRanges(); // clear current selection
+    window.getSelection().addRange(range); // to select text
+    document.execCommand("copy");
+    window.getSelection().removeAllRanges();// to deselect
+    alert("Code copied to clipboard!");
+  }</script>
+
+
+</body>
+
+</html>
